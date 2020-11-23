@@ -42,3 +42,8 @@ In addition, my goal in creating this game is:
 * To play I game that works on a laptop, desktop, tablet and mobile. 
 * To control the music or sound at my convenience.
 
+## Wireframes 
+
+My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/). I’ve individually created wireframes for Desktop, Tablet, and Mobile versions. 
+
+All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes)
