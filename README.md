@@ -20,12 +20,25 @@ In addition, my goal in creating this game is:
 * To attract non-Mega Man fans to play the game.
 * To create a 16 card memory game that includes 8 characters that can be found in Mega Man 1-4 game within 60 seconds.
 * To inspire Mega Man fans like me to reminisce some of the characters of Mega Man 1-4.
+* To attract different demographics to play the game.
 
-## User Goals: 
+## User Goals 
 
 * Completing all the 16 memory cards.
 * Completing the game within 60 seconds. 
 * To remind Mega Man fans of the characters in Mega Man 1-4 games (Mega Man Fans).
 * To have fun with the game. 
 * To play a game that has a different theme (Especially non-Mega Man fans).
+
+## User Stories
+
+* To play a game that is fun, interactive and conceptual. 
+* To play a game that is inspired by one of the Classic games that brings memories.
+* To play a game that uses characters that I am a fan of.
+* To play a game that tests and challenges my memory skills within a timeframe. 
+* To play a game that lets me play repeatedly.
+* To play a game that I can use as my daily dose of brain power.
+* To play a game that provides me instructions on how to play it. 
+* To play I game that works on a laptop, desktop, tablet and mobile. 
+* To control the music or sound at my convenience.
 
