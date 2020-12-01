@@ -1,16 +1,59 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    background: #42678e;
+  height: 100vh;
+  display: flex;
+  background: #42678e;
 }
 
+.megaman-game {
+  width: 39.5em;
+  height: 39.5em;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 62.5em;
+}
 
+.megaman-character {
+  width: calc(25% - 1em);
+  height: calc(33.33% - 1em);
+  margin: 0.3em;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .9s;
+}
+
+.megaman-character:active {
+    transform: scale(1);
+    transition: transform .4s;
+}
+
+.megaman-character.flip {
+  transform: rotateY(180deg);
+}
+
+.front-card,
+.rear-card {
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  position: absolute;
+  border-radius: 0.25em;
+  border-width: 0.25em;
+  border-style: solid;
+  background: #edc99f;
+  backface-visibility: hidden;
+}
+
+.front-card {
+  transform: rotateY(180deg);
+}
 
 
 
