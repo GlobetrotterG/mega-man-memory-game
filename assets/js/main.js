@@ -22,8 +22,8 @@
   }
 
   function checkForMatch() {
-    let isMatch = characterOne.dataset.framework === chracterTwo.dataset.framework;
-    isMatch ? disableCards() : unflipCards();
+    let characterMatch = characterOne.dataset.framework === chracterTwo.dataset.framework;
+    characterMatch ? disableCards() : unflipCards();
   }
 
   function disableCards() {
@@ -51,8 +51,8 @@
 
   (function shuffle() {
    cards.forEach(card => {
-     let ramdomPos = Math.floor(Math.random() * 12);
-     card.style.order = ramdomPos;
+     let shufflingCard = Math.floor(Math.random() * 12);
+     card.style.order = shufflingCard;
    });
  })();
 
