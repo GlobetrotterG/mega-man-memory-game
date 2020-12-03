@@ -7,6 +7,7 @@ class AudioController {
         this.gameOverSound = new Audio('assets/soundtrack/gameover.mp3');
         this.bgMusic.volume = 0.4;
         this.flipSound.volume = 0.1;
+        this.matchSound = 0.2;
         this.bgMusic.loop = true;
     }
     startMusic() {
@@ -42,6 +43,7 @@ class MegaManMemoryGame {
         this.audioController = new AudioController();
     }
 }
+
 
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('text-theme'));
