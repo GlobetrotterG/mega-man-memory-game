@@ -32,6 +32,16 @@ class AudioController {
     }
 }
 
+class MegaManMemoryGame {
+    constructor(totalTime, cards) {
+        this.cardsArray = cards;
+        this.totalTime = totalTime;
+        this.timeRemaining = totalTime;
+        this.timer = document.getElementById('time-remaining');
+        this.ticker = document.getElementById('flips');
+        this.audioController = new AudioController();
+    }
+}
 
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('text-theme'));
