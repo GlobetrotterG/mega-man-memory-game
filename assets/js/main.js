@@ -33,6 +33,7 @@ class AudioController {
     }
 }
 
+
 class MegaManMemoryGame {
     constructor(totalTime, cards) {
         this.cardsArray = cards;
@@ -42,8 +43,6 @@ class MegaManMemoryGame {
         this.ticker = document.getElementById('flips');
         this.audioController = new AudioController();
     }
-}
-
     startGame() {
         this.cardToCheck = null;
         this.totalClicks = 0;
@@ -107,7 +106,24 @@ class MegaManMemoryGame {
     getCardType(card) {
         return card.getElementsByClassName('megaman-character')[0].src;
     }
-
+    startCountDown() {
+        return setInterval(() => {
+            this.timeRemaining--;
+            this.timer.innerText = this.timeRemaining;
+            if(this.timeRemaining === 0)
+                this.gameOver();
+        }, 1000);
+    }
+    gameOver() {
+        clearInterval(this.countDown);
+        this.audioController.gameOver();
+        document.getElementById('you-lose-text').classList.add('show');
+    }
+    win() {
+        clearInterval(this.countDown);
+        this.audioController.win();
+        document.getElementById('win-text').classList.add('show');
+    }
     shuffleCards() {
         for(let megamanCharacter = this.cardsArray.length - 1; megamanCharacter > 0; megamanCharacter--) {
             let megamanIndex = Math.floor(Math.random() * (megamanCharacter+1));
@@ -119,7 +135,6 @@ class MegaManMemoryGame {
        return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
 }
-
 
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('text-theme'));
