@@ -44,6 +44,82 @@ class MegaManMemoryGame {
     }
 }
 
+    startGame() {
+        this.cardToCheck = null;
+        this.totalClicks = 0;
+        this.timeRemaining = this.totalTime;
+        this.matchedCards = [];
+        this.busy = true;
+        setTimeout(() => {
+            this.audioController.startMusic();
+            this.shuffleCards();
+            this.countDown = this.startCountDown();
+            this.busy = false;
+        }, 500);
+        this.hideCards();
+        this.timer.innerText = this.timeRemaining;
+        this.ticker.innerText = this.totalClicks;
+    }
+    hideCards() {
+        this.cardsArray.forEach(card => {
+            card.classList.remove('show');
+            card.ClassList.remove('matched');
+        });
+    }
+    flipCard(card) {
+        if(this.canFlipCard(card)) {
+            this.audioController.flip();
+            this.totalClicks++;
+            this.ticker.innerText = this.totalClicks;
+            card.classList.add('show');
+
+            if(this.cardToCheck)
+                this.checkForCardMatch(card);
+            else
+                this.cardToCheck = card;       
+        }
+    }
+    checkForCardMatch(card) {
+        if(this.getCardType(card) === this.getCardType(this.cardToCheck))
+            this.cardMatch(card, this.cardToCheck);
+        else
+            this.cardMisMatch(card, this.cardToCheck);
+
+        this.cardToCheck = null;
+    }
+    cardMatch(card1, card2) {
+        this.matchedCards.push(card1);
+        this.matchedCards.push(card2);
+        card1.classList.add('matched');
+        card2.classList.add('matched');
+        this.audioController.match();
+        if(this.matchedCards.length === this.cardsArray.length)
+            this.win();
+    }
+    cardMisMatch(card1, card2) {
+        this.busy = true;
+        setTimeout(() => {
+            card1.classList.remove('show');
+            card2.classList.remove('show');
+            this.busy = false;
+        }, 1000);
+    }
+    getCardType(card) {
+        return card.getElementsByClassName('megaman-character')[0].src;
+    }
+
+    shuffleCards() {
+        for(let megamanCharacter = this.cardsArray.length - 1; megamanCharacter > 0; megamanCharacter--) {
+            let megamanIndex = Math.floor(Math.random() * (megamanCharacter+1));
+            this.cardsArray[megamanIndex].style.order = megamanCharacter;
+            this.cardsArray[megamanCharacter].style.order = megamanIndex;
+        }
+    }
+    canFlipCard(card) {
+       return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
+    }
+}
+
 
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('text-theme'));
