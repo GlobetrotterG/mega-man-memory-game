@@ -12,60 +12,124 @@
 </head>
 <body>
 
-<header> 
-<div class="timer">60</div>
-</header>
-
-<section class ="megaman-game">
-    <div class="megaman-character" data-framework="airman">
-        <img class="front-card" src="assets/photos/airman.png" alt="airman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+    <h1 class="game-title">Mega Man Memory Game</h1>
+    <div class="text-theme show">
+      Click to Start
     </div>
-    <div class="megaman-character" data-framework="gravityman">
-        <img class="front-card" src="assets/photos/gravityman.png" alt="gravityman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+    <div id="you-lose-text" class="text-theme">
+      GAME OVER
+      <span class="text-theme-small">Click to Restart</span>
     </div>
-    <div class="megaman-character" data-framework="gutsman">
-        <img class="front-card" src="assets/photos/gutsman.png" alt="gutsman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+    <div id="win-text" class="text-theme">
+      You Win!
+      <span class="text-theme-small">Click to Restart</span>
     </div>
-    <div class="megaman-character" data-framework="megaman">
-        <img class="front-card" src="assets/photos/megamancard.png" alt="megaman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+  <div class="memory-game-content">
+    <div class="game-info-container">
+    <div class="memory-game-info">
+        Time <span id="time-remaining">60</span>
     </div>
-    <div class="megaman-character" data-framework="snakeman">
-        <img class="front-card" src="assets/photos/snakeman.png" alt="snakeman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+    <div class="memory-game-info">
+        Flips <span id="flips">0</span>
     </div>
-    <div class="megaman-character" data-framework="toadman">
-        <img class="front-card" src="assets/photos/toadman.png" alt="toadman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
     </div>
-    <div class="megaman-character" data-framework="airman">
-        <img class="front-card" src="assets/photos/airman.png" alt="airman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+    <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/airman.png" alt="airman" /> 
+     </div>
     </div>
-    <div class="megaman-character" data-framework="gravityman">
-        <img class="front-card" src="assets/photos/gravityman.png" alt="gravityman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/gravityman.png" alt="gravityman" /> 
+     </div>
     </div>
-    <div class="megaman-character" data-framework="gutsman">
-        <img class="front-card" src="assets/photos/gutsman.png" alt="gutsman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/gutsman.png" alt="gutsman" /> 
+     </div>
     </div>
-    <div class="megaman-character" data-framework="megaman">
-        <img class="front-card" src="assets/photos/megamancard.png" alt="megaman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/megamancard.png" alt="megaman" /> 
+     </div>
     </div>
-    <div class="megaman-character" data-framework="snakeman">
-        <img class="front-card" src="assets/photos/snakeman.png" alt="snakeman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/snakeman.png" alt="snakeman" /> 
+     </div>
     </div>
-    <div class="megaman-character" data-framework="toadman">
-        <img class="front-card" src="assets/photos/toadman.png" alt="toadman" />
-        <img class="rear-card" src="assets/photos/megamanhat.png" alt="megamanhelmet" />
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/toadman.png" alt="toadman" /> 
+     </div>
     </div>
-</section>
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/airman.png" alt="airman" /> 
+     </div>
+    </div>
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/gravityman.png" alt="gravityman" /> 
+     </div>
+    </div>
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/gutsman.png" alt="gutsman" /> 
+     </div>
+    </div>
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/megamancard.png" alt="megaman" /> 
+     </div>
+    </div>
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/snakeman.png" alt="snakeman" /> 
+     </div>
+    </div>
+        <div class="card">
+     <div class="rear-side-card front-character-card">
+        <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />
+     </div>
+     <div class="front-side-card front-character-card">   
+        <img class="megaman-character" src="assets/photos/toadman.png" alt="toadman" /> 
+     </div>
+    </div>
+  </div>
    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
