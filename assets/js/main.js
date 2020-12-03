@@ -1,13 +1,13 @@
 class AudioController {
     constructor() {
-        this.bgMusic = new Audio('assets/soundtrack/titlescreen.mp3');
-        this.flipSound = new Audio('assets/soundtrack/pickacard.mp3');
-        this.matchSound = new Audio('assets/soundtrack/rightcards.mp3');
-        this.winSound = new Audio('assets/soundtrack/victory.mp3');
-        this.gameOverSound = new Audio('assets/soundtrack/gameover.mp3');
-        this.bgMusic.volume = 0.4;
+        this.bgMusic = new Audio('assets/audio/titlescreen.mp3');
+        this.flipSound = new Audio('assets/audio/pickacard.mp3');
+        this.matchSound = new Audio('assets/audio/rightcards.mp3');
+        this.winSound = new Audio('assets/audio/victory.mp3');
+        this.gameOverSound = new Audio('assets/audio/gameover.mp3');
+        this.bgMusic.volume = 0.3;
         this.flipSound.volume = 0.1;
-        this.matchSound = 0.2;
+        this.matchSound.volume = 0.3;
         this.bgMusic.loop = true;
     }
     startMusic() {
@@ -32,7 +32,6 @@ class AudioController {
         this.gameOverSound.play();
     }
 }
-
 
 class MegaManMemoryGame {
     constructor(totalTime, cards) {
