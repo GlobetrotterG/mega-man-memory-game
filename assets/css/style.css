@@ -10,8 +10,13 @@ html {
 }
 
 body {
-    margin: 0;
-    background: radial-gradient(#0400f8, #02efee);
+    background-image: url(../photos/megamanwallpaper3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-bakcground-size: cover;
+    -o-background-size: cover;
 }
 
 .game-title {
