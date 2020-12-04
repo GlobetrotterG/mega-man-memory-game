@@ -1,4 +1,7 @@
 # Mega Man Memory Game
+
+![Mega-Man-Memory-Game-Logo](assets/photos/megamanlogocropped.png)
+
 There's been a lot of debating and ideas for considering my Second project. After considering my options, I decided to create a memory game inspired from one of my favourite [Capcom](http://www.capcom-europe.com/) game franchise called "Mega Man," which is known as "Rockman" in Japan. 
 
 The First time I played the Mega Man 1, I was very addicted to the game, as I found it very entertaining, and the challenges on every stages of the game was worth playing it. 
@@ -47,6 +50,10 @@ In addition, my goal in creating this game is:
 My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/). I’ve individually created wireframes for Desktop, Tablet, and Mobile versions. 
 
 All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes).
+
+# How To Play The Game 
+
+The Mega Man Memory Game is a deck of 12 cards with 6 characters 
 
 
 # The Game Theme 
@@ -99,7 +106,6 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 ### Game Over - Is the sound when Mega Man gets defeated (Mega Man 4). 
 * Check the music link [here](https://downloads.khinsider.com/game-soundtracks/album/megaman-4-original-soundtrack/30%2520-%2520Game%2520Over.mp3)
 
-
 # Colour Theme
 
 * Choosing the colour theme for this game was mainly inspired from the colour palette's of both Mega Man and Proto Man characters. 
@@ -117,6 +123,8 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
+
+#
 
 
 # Site / Game Disclaimer 
