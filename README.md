@@ -11,14 +11,14 @@ I put a lot of inspiration creating this memory game. Whether you're a fan of Me
 
 ## Project Goals
 
-I wanted to create a memory card game for this project using a theme and characters that I felt inspired to use. After considering many options, I went for one of my all-time favourite game called “Mega Man.” Mega Man is a famous Capcom classic game, which is also known as Rockman in Japan. I was so drawn to creating a game inspired by the characters from Mega Man 1-5, that I chose 8 of them to be included in this memory card game. 
+I wanted to create a memory card game for this project using a theme and characters that I felt inspired to use. After considering many options, I went for one of my all-time favourite game called “Mega Man.” Mega Man is a famous Capcom classic game, which is also known as Rockman in Japan. I was so drawn to creating a game inspired by the characters from Mega Man 1-5, that I chose 6 of them to be included in this memory card game. 
 
 In addition, my goal in creating this game is:
 
 * To attract users with the theme and look of the game.
 * To create a game targeting Mega Man fans.
 * To attract non-Mega Man fans to play the game.
-* To create a 12 card memory game that includes 8 characters that can be found in Mega Man 1-5 game within 60 seconds.
+* To create a 12 card memory game that includes 6 characters that can be found in Mega Man 1-5 game within 60 seconds.
 * To inspire Mega Man fans like me to reminisce some of the characters of Mega Man 1-5.
 * To attract different demographics to play the game.
 
@@ -47,3 +47,21 @@ In addition, my goal in creating this game is:
 My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/). I’ve individually created wireframes for Desktop, Tablet, and Mobile versions. 
 
 All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes)
+
+# Colour theme
+
+* Choosing the colour theme for this game was mainly inspired from the colour palette's of both Mega Man and Proto Man characters. 
+* Mega Man has elements of Blue, while Proto Man has elements of Red. 
+* Colour palette for Mega Man was idea was taken from the color-hex link created by a user named [dunstontc](https://www.color-hex.com/color-palette/25174).
+* Colour palette for Proto Man was idea was taken from a site called [diariesofanessexgirl](https://diariesofanessexgirl.com/retro-proto-man-color-palette/) and created by a user named [Joshua Margolin](https://diariesofanessexgirl.com/retro-proto-man-color-palette/).
+* I've compiled all the colour palette ideas incorporated in the game from a site called [coolors](https://coolors.co/).
+
+## Coolors colour palette:
+
+![colour-pallette](assets/photos/megamangamecolours.png)
+
+### Mega Man Image
+![Mega-Man](assets/photos/megaman1.jpg)
+
+### Proto Man Image
+![Proto-Man](assets/photos/protoman.jpg)
