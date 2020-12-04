@@ -66,22 +66,22 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 ## The Game characters
 
 ### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5
-![Mega-Man](assets/photos/megamanreadme.png)
+![Mega-Man](assets/photos/megamancard.png)
 
 ### [Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1
-![Guts-Man](assets/photos/gutsmanreadme.jpg)
+![Guts-Man](assets/photos/gutsman.png)
 
 ### [Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2
-![Air-Man](assets/photos/airmanreadme/jpg)
+![Air-Man](assets/photos/airman.png)
 
 ### [Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3
-![Snake-Man](assets/photos/snakemanreadme.jpg)
+![Snake-Man](assets/photos/snakeman.png)
 
 ### [Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4 
-![Toad-Man](assets/photos/toadmanreadme.jpg)
+![Toad-Man](assets/photos/toadman.png)
 
 ### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
-![Gravity-Man](assets/photos/gravitymanreadme.png)
+![Gravity-Man](assets/photos/gravityman.png)
 
 
 
