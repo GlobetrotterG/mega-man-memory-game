@@ -49,7 +49,39 @@ My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/
 All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes).
 
 
+# The Game Theme 
 
+If this is the First time you've heard of the Mega Man game, you will ask yourself... Who is Mega Man?. 
+
+As per [Wikipedia](https://en.wikipedia.org/wiki/Mega_Man#:~:text=In%20the%20story%20behind%20the,Dr.%20Wily%20as%20his%20partner.&text=After%20defeating%20a%20Robot%20Master,that%20Robot%20Master's%20special%20weapon.), here is a brief summary about Mega Man: 
+
+>In the story behind the original series, Mega Man is a robot originally named Rock, created as a lab assistant by the scientist Dr. Light with Dr. Wily as his partner. Following treachery by Dr. Wily in which he reprogrammed most of Dr. Light's robots, Rock volunteered to be converted into a fighting robot to defend the world from Wily's violent robotic threats, thus becoming Mega Man.
+
+>Though all incarnations of Mega Man feature unique stories, settings, and characters, they share several common features. All main Mega Man games released prior to 1997 are side-scrolling action platformers. The player character must fight through the levels using Mega Man's "Mega Buster"—a cannon attached to his arm—to shoot the robotic enemies inhabiting his environment. When Mega Man was released in 1987, the characteristic that made it revolutionary was the choice given to the player of which robot master to attempt first. After defeating a Robot Master—the boss of a level—Mega Man gains the ability to use that Robot Master's special weapon.
+
+The First ever [Mega Man 1](https://en.wikipedia.org/wiki/Mega_Man_(1987_video_game)) had so much influence with my love for the game, and have even downloaded a Mega Man game app on Google Play. 
+
+This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 5 and Mega Man himself to complete the deck of 12 chards for this game. The background music, sound effects, and backdrop for the game itself have all been inspired from the game itself. 
+
+## The Game characters
+
+### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5
+![Mega-Man](assets/photos/megamanreadme.png)
+
+### [Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1
+![Guts-Man](assets/photos/gutsmanreadme.jpg)
+
+### [Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2
+![Air-Man](assets/photos/airmanreadme/jpg)
+
+### [Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3
+![Snake-Man](assets/photos/snakemanreadme.jpg)
+
+### [Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4 
+![Toad-Man](assets/photos/toadmanreadme.jpg)
+
+### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
+![Gravity-Man](assets/photos/gravitymanreadme.png)
 
 
 
