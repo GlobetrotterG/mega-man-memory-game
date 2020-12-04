@@ -90,6 +90,13 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 ### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
 ![Gravity-Man](assets/photos/gravityman.png)
 
+## The Mega Man Logo
+
+The Mega Man vector logo used was taken from a link called Sprites-inc from one of the site members called gaemon. Please check the [link here](http://sprites-inc.co.uk/thread-1889.html).
+
+To make it more immersive and relevant to the name of the Mega Man-themed memory game, I added the text "Memory Game." This was edited using [canva](https://www.canva.com/). The text that was used is called "Squartiqa."
+
+
 ## The Game music
 
 Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soundtracks/album/megaman-2-original-soundtrack) and [101soundboards](https://www.101soundboards.com/boards/10834-mega-man-sounds).
@@ -124,7 +131,9 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
 
-#
+# Credits
+
+
 
 
 # Site / Game Disclaimer 
