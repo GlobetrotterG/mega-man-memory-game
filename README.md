@@ -83,6 +83,21 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 ### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
 ![Gravity-Man](assets/photos/gravityman.png)
 
+## The Game music
+
+Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soundtracks/album/megaman-2-original-soundtrack) and [101soundboards](https://www.101soundboards.com/boards/10834-mega-man-sounds).
+
+### Start Game Music Background - Taken from the Title Screen (Mega Man 2). 
+* Check the music link [here](https://downloads.khinsider.com/game-soundtracks/album/megaman-2-original-soundtrack/02%2520-%2520Title%2520Screen.mp3)
+
+### Card Picker - Is the sound when Mega Man jumps in his Mega Man games. 
+* Check the music link [here - Number 6](https://www.101soundboards.com/boards/10834-mega-man-sounds)
+
+### Cards Match - Is the sound when Mega Man gets a Bonus Ball.
+* Check the music link [here - Number 26](https://www.101soundboards.com/boards/10834-mega-man-sounds)
+
+### Game Over - Is the sound when Mega Man gets defeated (Mega Man 4). 
+* Check the music link [here](https://downloads.khinsider.com/game-soundtracks/album/megaman-4-original-soundtrack/30%2520-%2520Game%2520Over.mp3)
 
 
 # Colour Theme
