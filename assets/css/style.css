@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
 
 * {
     box-sizing: border-box;
@@ -93,7 +92,7 @@ body {
     z-index: 100;
     color: #000;
     font-size: 20em;
-    font-family: 'Press Start 2P', sans-serif;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .text-theme-small {
