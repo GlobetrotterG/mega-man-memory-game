@@ -1,5 +1,5 @@
 # Mega Man Memory Game
-There's been a lot of debating and ideas for considering my Second project. After considering my options, I decided to create a memory game inspired from one of my favourite Capcom game franchise called "Mega Man," which is known as "Rockman" in Japan. 
+There's been a lot of debating and ideas for considering my Second project. After considering my options, I decided to create a memory game inspired from one of my favourite [Capcom](http://www.capcom-europe.com/) game franchise called "Mega Man," which is known as "Rockman" in Japan. 
 
 The First time I played the Mega Man 1, I was very addicted to the game, as I found it very entertaining, and the challenges on every stages of the game was worth playing it. 
 
@@ -65,3 +65,7 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
+
+# Site / Game Disclaimer 
+
+* This game site and its contents were created for educational purposes. No Copyright infrigement intended to [Capcom](http://www.capcom-europe.com/).
