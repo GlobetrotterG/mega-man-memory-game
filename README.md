@@ -42,13 +42,18 @@ In addition, my goal in creating this game is:
 * To play I game that works on a laptop, desktop, tablet and mobile. 
 * To control the music or sound at my convenience.
 
-## Wireframes 
+# Wireframes 
 
 My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/). I’ve individually created wireframes for Desktop, Tablet, and Mobile versions. 
 
-All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes)
+All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes).
 
-# Colour theme
+
+
+
+
+
+# Colour Theme
 
 * Choosing the colour theme for this game was mainly inspired from the colour palette's of both Mega Man and Proto Man characters. 
 * Mega Man has elements of Blue, while Proto Man has elements of Red. 
@@ -56,7 +61,7 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 * Colour palette for Proto Man was idea was taken from a site called [diariesofanessexgirl](https://diariesofanessexgirl.com/retro-proto-man-color-palette/) and created by a user named [Joshua Margolin](https://diariesofanessexgirl.com/retro-proto-man-color-palette/).
 * I've compiled all the colour palette ideas incorporated in the game from a site called [coolors](https://coolors.co/).
 
-## Coolors colour palette:
+## Coolors Colour Palette:
 
 ![colour-pallette](assets/photos/megamangamecolours.png)
 
@@ -65,6 +70,7 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
+
 
 # Site / Game Disclaimer 
 
