@@ -155,6 +155,12 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
 
+# Fonts
+
+I went for 2 fonts to compliment the theme of the game using [Google Fonts](https://fonts.google.com/). They are: 
+* [Rubik Mono One](https://fonts.google.com/specimen/Rubik+Mono+One?query=rubik+mo) - For the Timer and Flip text.
+* [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=press+) - For the Start Game Text.
+
 # Deployment
 
 Mega Man Memory Game was developed on GitPod, using git and GitHub to host the repository.
