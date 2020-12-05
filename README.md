@@ -24,7 +24,7 @@ I put a lot of inspiration in creating this memory game. Whether you're a fan of
   * [Win and Game Over Message](#win-and-game-over-message)
 - [The Game Theme](#the-game-theme)
   * [The Game characters](#the-game-characters)
-    + [[Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5](#-mega-man--https---megamanfandomcom-wiki-mega-man--original-series-----mega-man-1-5)
+    + [[Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series) - Mega Man 1-5](#-mega-man--https---megamanfandomcom-wiki-mega-man--original-series----mega-man-1-5)
     + [[Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1](#-guts-man--https---megamanfandomcom-wiki-guts-man----mega-man-1)
     + [[Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2](#-air-man--https---megamanfandomcom-wiki-air-man----mega-man-2)
     + [[Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3](#-snake-man--https---megamanfandomcom-wiki-snake-man----mega-man-3)
@@ -56,6 +56,8 @@ I put a lot of inspiration in creating this memory game. Whether you're a fan of
 - [Site / Game Disclaimer](#site---game-disclaimer)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 # UX 
 
@@ -145,7 +147,7 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 
 ## The Game characters
 
-### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5
+### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series) - Mega Man 1-5
 ![Mega-Man](assets/photos/megamancard.png)
 * Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2H7H7H7G6A0H7A0_mega-man-blue-video-game-character/)
 
@@ -159,7 +161,7 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 
 ### [Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3
 ![Snake-Man](assets/photos/snakeman.png)
-* Photo source link on [favpng](https://favpng.com/png_view/mega-sale-mega-man-3-mega-man-6-shadow-man-snake-png/QThL9Hyi).
+* Photo source link on [favpng](https://favpng.com/png_view/mega-sale-mega-man-3-mega-man-6-shadow-man-snake-png/QThL9Hyi)
 
 ### [Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4 
 ![Toad-Man](assets/photos/toadman.png)
