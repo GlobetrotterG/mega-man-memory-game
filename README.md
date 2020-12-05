@@ -155,6 +155,34 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
 
+# Deployment
+
+Mega Man Memory Game was developed on GitPod, using git and GitHub to host the repository.
+
+When deploying Mega Man Memory Game using GitHub Pages, the following steps were made: 
+
+* Opened up **GitHub** in the browser.
+* Signed in using username and password. 
+* Selected my **repositories**.
+* Navigated to **'/GlobetrotterG/mega-man-memory-game'**.
+* In the top navigation clicked **'settings'**.
+* Scrolled down to the **GitHub Pages** area.
+* Selected **'Master Branch'** from the **'Source'** dropdown menu.
+* Clicked to confirm my selection. 
+* Love Cebu! is now live on GitHub pages.
+
+## Cloning Mega Man Memory Game from GitHub
+
+* Navigate to **'/GlobetrotterG/mega-man-memory-game'**.
+* Click the green **'Clone or Download'** button.
+* Copy the url in the dropdown box. 
+* Using your favourite **IDE,** open up your preferred **terminal**. 
+* Navigate to your desired file location. 
+* Copy the following **code** and input it into your terminal to clone Love Cebu! 
+
+```
+git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
+```
 
 # Credits
 
@@ -175,7 +203,9 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 * For the Colour themes, I want to give credit to the following: 
     * [color-hex](https://www.color-hex.com/)
     * [diaries of an essex girl](https://diariesofanessexgirl.com/)
-    * [coolors](https://coolors.co/)
+    * [Coolors](https://coolors.co/)
+
+* I used [Coolors](https://coolors.co/) to remove the background on the character's photos.
 
 * For the additional information provided here in README for the backstory of Mega Man and the Robot characters, I want to give credit to the following: 
     * [Wikipedia](https://en.wikipedia.org/)
