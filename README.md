@@ -190,6 +190,32 @@ When deploying Mega Man Memory Game using GitHub Pages, the following steps were
 git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 ```
 
+# Testing 
+
+* Site was coded using a Dell XPS 13 laptop and also used it to test website responsiveness on laptop.
+* Mobile site version was tested using an iphone 7 Plus, Samsung Galaxy S10+, Google Pixel 3a XL phones. 
+* Tablet site version was tested on an ipad Air.
+* To test overall website responsiveness for Laptop, Desktop, Mobile and Tablet, I also used Google Chrome DevTools.
+* HTML code was tested using [W3C Markup Validation Service](https://validator.w3.org/)
+* CSS code was tested using [W3C CSS Markup Validation Service - Jigsaw](https://jigsaw.w3.org/css-validator/)
+* JavaScript code was tested using [JSHint](https://jshint.com/)
+
+# Technologies Used
+
+## Languages Used
+
+* HTML 
+* CSS 
+* JavaScript
+
+Tools and Libraries
+* Chrome Developer Tools
+* Google Fonts 
+* Bootstrap
+* GitPod
+* GitHub
+* Font-Awesome
+
 # Credits
 
 ## Photos, Logo, Cursor, Music, Colour themes and Additional Information
