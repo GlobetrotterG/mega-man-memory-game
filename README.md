@@ -61,7 +61,21 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 ## Start Text 
 
 * Before the game starts, a "Start Game" is displayed on the screen. 
-* Once that's pressed, the game starts.
+* Once that's pressed, the game starts, with the background music playing on loop and the timer starts counting.
+
+## Timer 
+
+* Timer has been set to 60 seconds to make the game more fun and challenging for the user. 
+
+## Flips
+
+* The number of flips feature was included to in order for the user to assess the number of flips they've made within 60 seconds. 
+* It's a fun feature to add as it challenges the user. 
+
+## Music On/Off
+
+* Is added for the user to control the music of the game and giving them the option to play the game with or without music. 
+* This can be controlled by pressing the icon. 
 
 # The Game Theme 
 
@@ -128,7 +142,7 @@ On a Desktop and Laptop, I have added a Mega Man cursor to make the gaming exper
 
 ![Mega-Man-Cursor](assets/photos/megamancursor.png)
 
-## The Game music
+## The Game Music
 
 * Once the "Start Game" is pressed, the game begins with the background music played on a loop. 
 * 4 other sound effects can be heard: 
