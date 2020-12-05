@@ -74,21 +74,35 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 
 ### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5
 ![Mega-Man](assets/photos/megamancard.png)
+* Photo source link on [clipartmax](https://www.clipartmax.com/middle/m2H7H7H7G6A0H7A0_mega-man-blue-video-game-character/)
 
 ### [Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1
 ![Guts-Man](assets/photos/gutsman.png)
+* Photo source link on [favpng](https://favpng.com/png_view/magnet-toys-mega-man-7-mega-man-bass-mega-man-the-power-battle-mega-man-powered-up-png/fqyJN7L0)
 
 ### [Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2
 ![Air-Man](assets/photos/airman.png)
+* Photo source link on [favpng](https://favpng.com/png_view/mega-man-9-mega-man-2-street-fighter-x-mega-man-dr-wily-street-fighter-x-tekken-png/fq0DPtTx)
 
 ### [Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3
 ![Snake-Man](assets/photos/snakeman.png)
+* Photo source link on [favpng](https://favpng.com/png_view/mega-sale-mega-man-3-mega-man-6-shadow-man-snake-png/QThL9Hyi).
 
 ### [Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4 
 ![Toad-Man](assets/photos/toadman.png)
+* Photo source link on [favpng](https://favpng.com/png_view/garbage-man-cartoon-mega-man-4-mega-man-2-mega-man-iv-mega-man-9-mega-man-3-png/Af6NvSkL)
 
 ### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
 ![Gravity-Man](assets/photos/gravityman.png)
+* Photo source link on [clipartmax](https://www.clipartmax.com/middle/m2i8m2i8N4A0H7K9_follow-mega-man-gravity-man/)
+
+## Back Card
+For the back card of the game, I used Mega Man's helmet as the picture which complimented the theme of the game.
+
+### Mega Man Helmet Photo
+![Mega-Man-Helemt](assets/photos/megamanhat.png)
+* Photo source link on [clipartmax](https://www.clipartmax.com/middle/m2i8N4N4H7K9G6d3_mega-man-10-proto-man-helmet-clip-art-draw-mega-mans-helmet/)
+
 
 ## The Mega Man Logo
 
