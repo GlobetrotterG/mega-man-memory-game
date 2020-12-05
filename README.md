@@ -74,7 +74,7 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 
 ### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5
 ![Mega-Man](assets/photos/megamancard.png)
-* Photo source link on [clipartmax](https://www.clipartmax.com/middle/m2H7H7H7G6A0H7A0_mega-man-blue-video-game-character/)
+* Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2H7H7H7G6A0H7A0_mega-man-blue-video-game-character/)
 
 ### [Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1
 ![Guts-Man](assets/photos/gutsman.png)
@@ -94,21 +94,25 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 
 ### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
 ![Gravity-Man](assets/photos/gravityman.png)
-* Photo source link on [clipartmax](https://www.clipartmax.com/middle/m2i8m2i8N4A0H7K9_follow-mega-man-gravity-man/)
+* Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2i8m2i8N4A0H7K9_follow-mega-man-gravity-man/)
 
 ## Back Card
 For the back card of the game, I used Mega Man's helmet as the picture which complimented the theme of the game.
 
 ### Mega Man Helmet Photo
 ![Mega-Man-Helemt](assets/photos/megamanhat.png)
-* Photo source link on [clipartmax](https://www.clipartmax.com/middle/m2i8N4N4H7K9G6d3_mega-man-10-proto-man-helmet-clip-art-draw-mega-mans-helmet/)
+* Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2i8N4N4H7K9G6d3_mega-man-10-proto-man-helmet-clip-art-draw-mega-mans-helmet/)
 
+## Game Background Photo 
+The background photo was taken from the Title screen in Mega Man 2. It compliments the game, and gives that Mega Man universe vibe. 
+![Background-Game-Photo](megamanwallpaper3.jpg)
+* Photo source link on [Wallpaperaccess](https://wallpaperaccess.com/mega-man)
 
 ## The Mega Man Logo
 
-The Mega Man vector logo used was taken from a link called Sprites-inc from one of the site members called gaemon. Please check the [link here](http://sprites-inc.co.uk/thread-1889.html).
+The Mega Man vector logo used was taken from a link called [Sprites-inc](http://sprites-inc.co.uk/thread-1889.html) from one of the site members called gaemon. 
 
-To make it more immersive and relevant to the name of the Mega Man-themed memory game, I added the text "Memory Game." This was edited using [canva](https://www.canva.com/). The text that was used is called "Squartiqa."
+To make it more immersive and relevant to the name of the Mega Man-themed memory game, I added the text "Memory Game." This was edited using [Canva](https://www.canva.com/). The text that was used is called "Squartiqa."
 
 
 ## The Game music
@@ -121,7 +125,7 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 ### Card Picker - Is the sound when Mega Man jumps in his Mega Man games. 
 * Check the music link [here - Number 6](https://www.101soundboards.com/boards/10834-mega-man-sounds)
 
-### Cards Match - Is the sound when Mega Man gets a Bonus Ball.
+### Cards Match - Is the sound when Mega Man gets a Bonus ball.
 * Check the music link [here - Number 26](https://www.101soundboards.com/boards/10834-mega-man-sounds)
 
 ### Game Over - Is the sound when Mega Man gets defeated (Mega Man 4). 
