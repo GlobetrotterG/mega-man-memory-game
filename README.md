@@ -77,6 +77,11 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 * Is added for the user to control the music of the game and giving them the option to play the game with or without music. 
 * This can be controlled by pressing the icon. 
 
+## Win and Game Over Message
+
+* If all 12 cards have been matched within 60 seconds, a "You win!" message comes out, and game will restart once pressed. A sound effect can be heard.
+* If all 12 cards have not been matched within 60 seconds, then a "Game Over!" comes out, and will restart once pressed. A sound effect can be heard.
+
 # The Game Theme 
 
 If this is the First time you've heard of the Mega Man game, you will ask yourself... Who is Mega Man?. 
