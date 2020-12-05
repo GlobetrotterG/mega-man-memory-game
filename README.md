@@ -2,13 +2,60 @@
 
 ![Mega-Man-Memory-Game-Logo](assets/photos/megamanlogocropped.png)
 
-There's been a lot of debating and ideas for considering my Second project. After considering my options, I decided to create a memory game inspired from one of my favourite [Capcom](http://www.capcom-europe.com/) game franchise called "Mega Man," which is known as "Rockman" in Japan. 
+There's been a lot of debating and ideas for considering my Second project. After considering my options, I decided to create a memory game inspired by one of my favourite [Capcom](http://www.capcom-europe.com/) game franchise called "Mega Man," which is known as "Rockman" in Japan. 
 
-The First time I played the Mega Man 1, I was very addicted to the game, as I found it very entertaining, and the challenges on every stages of the game was worth playing it. 
+The First time I played Mega Man 1, I was very addicted to the game, as I found it very entertaining, and the challenges on every stage of the game were worth playing it. 
 
-The younger me always looked forward to the succeeding Mega Man game series. What I found interesting with the game is the theme of every robot bosses and their special powers. 
+The younger me always looked forward to the succeeding Mega Man game series. What I found interesting about the game is the theme of every robot bosses and their special powers. 
 
-I put a lot of inspiration creating this memory game. Whether you're a fan of Mega Man or have just heard of Mega Man, I hope this game entertains you! 
+I put a lot of inspiration in creating this memory game. Whether you're a fan of Mega Man or have just heard of Mega Man, I hope this game entertains you! 
+
+- [UX](#ux)
+  * [Project Goals](#project-goals)
+  * [User Goals](#user-goals)
+  * [User Stories](#user-stories)
+- [Wireframes](#wireframes)
+- [Features](#features)
+  * [How To Play The Game](#how-to-play-the-game)
+  * [Start Text](#start-text)
+  * [Timer](#timer)
+  * [Flips](#flips)
+  * [Music On/Off](#music-on-off)
+  * [Win and Game Over Message](#win-and-game-over-message)
+- [The Game Theme](#the-game-theme)
+  * [The Game characters](#the-game-characters)
+    + [[Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series)) - Mega Man 1-5](#-mega-man--https---megamanfandomcom-wiki-mega-man--original-series-----mega-man-1-5)
+    + [[Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1](#-guts-man--https---megamanfandomcom-wiki-guts-man----mega-man-1)
+    + [[Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2](#-air-man--https---megamanfandomcom-wiki-air-man----mega-man-2)
+    + [[Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3](#-snake-man--https---megamanfandomcom-wiki-snake-man----mega-man-3)
+    + [[Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4](#-toad-man--https---megamanfandomcom-wiki-toad-man----mega-man-4)
+    + [[Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5](#-gravity-man--https---megamanfandomcom-wiki-gravity-man----mega-man-5)
+  * [Back Card](#back-card)
+    + [Mega Man Helmet Photo](#mega-man-helmet-photo)
+  * [Game Background Photo](#game-background-photo)
+  * [The Mega Man Logo](#the-mega-man-logo)
+  * [Mega Man Cursor](#mega-man-cursor)
+  * [The Game Music](#the-game-music)
+    + [Start Game Music Background - Taken from the Title Screen (Mega Man 2).](#start-game-music-background---taken-from-the-title-screen--mega-man-2-)
+    + [Card Picker - Is the sound when Mega Man jumps in his Mega Man games.](#card-picker---is-the-sound-when-mega-man-jumps-in-his-mega-man-games)
+    + [Cards Match - Is the sound when Mega Man gets a Bonus ball.](#cards-match---is-the-sound-when-mega-man-gets-a-bonus-ball)
+    + [Game Over - Is the sound when Mega Man gets defeated (Mega Man 4).](#game-over---is-the-sound-when-mega-man-gets-defeated--mega-man-4-)
+- [Colour Theme](#colour-theme)
+  * [Coolors Colour Palette:](#coolors-colour-palette-)
+    + [Mega Man Image](#mega-man-image)
+    + [Proto Man Image](#proto-man-image)
+- [Fonts](#fonts)
+- [Deployment](#deployment)
+  * [Cloning Mega Man Memory Game from GitHub](#cloning-mega-man-memory-game-from-github)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+- [Credits](#credits)
+  * [Photos, Logo, Cursor, Music, Colour themes and Additional Information](#photos--logo--cursor--music--colour-themes-and-additional-information)
+  * [Acknowledgements](#acknowledgements)
+- [Site / Game Disclaimer](#site---game-disclaimer)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # UX 
 
@@ -35,14 +82,14 @@ In addition, my goal in creating this game is:
 
 ## User Stories
 
-* To play a game that is fun, interactive and conceptual. 
-* To play a game that is inspired by one of the Classic games that brings memories.
+* To play a game that is fun, interactive, and conceptual. 
+* To play a game that is inspired by one of the Classic games that bring memories.
 * To play a game that uses characters that I am a fan of.
 * To play a game that tests and challenges my memory skills within a timeframe. 
 * To play a game that lets me play repeatedly.
-* To play a game that I can use as my daily dose of brain power.
+* To play a game that I can use as my daily dose of brainpower.
 * To play a game that provides me instructions on how to play it. 
-* To play I game that works on a laptop, desktop, tablet and mobile. 
+* To play I game that works on a laptop, desktop, tablet, and mobile. 
 * To control the music or sound at my convenience.
 
 # Wireframes 
@@ -55,13 +102,13 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 
 ## How To Play The Game 
 
-* The Mega Man Memory Game is a deck of 12 cards with using 6 characters. To play the game, user must match 2 similar cards within 60 seconds to win the game. 
-* For additional challenge to the game, I added number of flips to the game for the user to track the number of times they have turned a card. 
+* The Mega Man Memory Game is a deck of 12 cards with using 6 characters. To play the game, the user must match 2 similar cards within 60 seconds to win the game. 
+* For an additional challenge to the game, I added a number of flips to the game for the user to track the number of times they have turned a card. 
 
 ## Start Text 
 
 * Before the game starts, a "Start Game" is displayed on the screen. 
-* Once that's pressed, the game starts, with the background music playing on loop and the timer starts counting.
+* Once that's pressed, the game starts, with the background music playing on a loop and the timer starts counting.
 
 ## Timer 
 
@@ -69,7 +116,7 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 
 ## Flips
 
-* The number of flips feature was included to in order for the user to assess the number of flips they've made within 60 seconds. 
+* The number of flips feature was included in order for the user to assess the number of flips they've made within 60 seconds. 
 * It's a fun feature to add as it challenges the user. 
 
 ## Music On/Off
@@ -79,7 +126,7 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 
 ## Win and Game Over Message
 
-* If all 12 cards have been matched within 60 seconds, a "You win!" message comes out, and game will restart once pressed. A sound effect can be heard.
+* If all 12 cards have been matched within 60 seconds, a "You win!" message comes out, and the game will restart once pressed. A sound effect can be heard.
 * If all 12 cards have not been matched within 60 seconds, then a "Game Over!" comes out, and will restart once pressed. A sound effect can be heard.
 
 # The Game Theme 
@@ -92,9 +139,9 @@ As per [Wikipedia](https://en.wikipedia.org/wiki/Mega_Man#:~:text=In%20the%20sto
 
 >Though all incarnations of Mega Man feature unique stories, settings, and characters, they share several common features. All main Mega Man games released prior to 1997 are side-scrolling action platformers. The player character must fight through the levels using Mega Man's "Mega Buster"—a cannon attached to his arm—to shoot the robotic enemies inhabiting his environment. When Mega Man was released in 1987, the characteristic that made it revolutionary was the choice given to the player of which robot master to attempt first. After defeating a Robot Master—the boss of a level—Mega Man gains the ability to use that Robot Master's special weapon.
 
-The First ever [Mega Man 1](https://en.wikipedia.org/wiki/Mega_Man_(1987_video_game)) had so much influence with my love for the game, and have even downloaded a Mega Man game app on Google Play. 
+The First-ever [Mega Man 1](https://en.wikipedia.org/wiki/Mega_Man_(1987_video_game)) had so much influence on my love for the game, and have even downloaded a Mega Man game app on Google Play. 
 
-This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 5 and Mega Man himself to complete the deck of 12 chards for this game. The background music, sound effects, and backdrop for the game itself have all been inspired from the game itself. 
+This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 5 and Mega Man himself to complete the deck of 12 chards for this game. The background music, sound effects, and backdrop for the game itself have all been inspired by the game itself. 
 
 ## The Game characters
 
@@ -281,11 +328,11 @@ Tools and Libraries
 
 I want to extend my biggest gratitude to the following: 
 
-* Once again, I want to thank my amazing mentor, [Simen Daehlin](www.github.com/Eventyret), whose been very inspiring and motivsting throughout this project. This was one of the most challenging projects I've faced, but he gave me the "You can do it!" mindset. Fast forward, and now I am able to create this project with his motivation. Thank you Simen! 
+* Once again, I want to thank my amazing mentor, [Simen Daehlin](www.github.com/Eventyret), whose been very inspiring and motivsting throughout this project. This was one of the most challenging projects I've faced, but he gave me the "You can do it!" mindset. Fast forward, and now I am able to create this project with his motivation. Thank you, Simen! 
 * I also want to thank the Code Institute community via Slack. We have such an amazing group who shares the same passion and interest in what we do! The guys in Slack have been very helpful with any questions I may have, or any students who may have similar questions to me.  
 * I want to thank [Capcom](http://www.capcom-europe.com/) for creating a game that made waves in the games industry. Without their creation of the Mega Man game, I would have not been able to draw inspiration in creating this project! 
 
-Throughtout the behind-the-scenes in creating this project, and having a lot of experimenting and checking what works for this project, I want to thank these contents and developers who are masters of their crafts in the world of Software development, as I've drawn inspiration and insights for this project: 
+Throughout the behind-the-scenes in creating this project, and having a lot of experimenting and checking what works for this project, I want to thank these contents and developers who are masters of their crafts in the world of Software development, as I've drawn inspiration and insights for this project: 
 * [How To Code A Card Game In Plain JavaScript - Spooky Halloween Edition by PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ)
 * [Memory Card Game - JavaScript Tutorial by freecodecamp.org](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=876s)
 * [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=168s)
