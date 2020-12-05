@@ -51,10 +51,17 @@ My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/
 
 All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes).
 
-# How To Play The Game 
+# Features
 
-The Mega Man Memory Game is a deck of 12 cards with 6 characters 
+## How To Play The Game 
 
+* The Mega Man Memory Game is a deck of 12 cards with using 6 characters. To play the game, user must match 2 similar cards within 60 seconds to win the game. 
+* For additional challenge to the game, I added number of flips to the game for the user to track the number of times they have turned a card. 
+
+## Start Text 
+
+* Before the game starts, a "Start Game" is displayed on the screen. 
+* Once that's pressed, the game starts.
 
 # The Game Theme 
 
@@ -122,6 +129,14 @@ On a Desktop and Laptop, I have added a Mega Man cursor to make the gaming exper
 ![Mega-Man-Cursor](assets/photos/megamancursor.png)
 
 ## The Game music
+
+* Once the "Start Game" is pressed, the game begins with the background music played on a loop. 
+* 4 other sound effects can be heard: 
+    * When choosing a card
+    * When 2 cards are match 
+    * When it's Game Over 
+    * When you win the game
+* Selection of the music and sound effects have been carefully selected to compliment the game itself. For Mega Man fans, this will also reminisce their gaming experience when they are playing a Mega Man game. 
 
 Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soundtracks/album/megaman-2-original-soundtrack) and [101soundboards](https://www.101soundboards.com/boards/10834-mega-man-sounds).
 
