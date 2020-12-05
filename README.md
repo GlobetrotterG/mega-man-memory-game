@@ -105,7 +105,7 @@ For the back card of the game, I used Mega Man's helmet as the picture which com
 
 ## Game Background Photo 
 The background photo was taken from the Title screen in Mega Man 2. It compliments the game, and gives that Mega Man universe vibe. 
-![Background-Game-Photo](megamanwallpaper3.jpg)
+![Background-Game-Photo](assets/photos/megamanwallpaper3.png)
 * Photo source link on [Wallpaperaccess](https://wallpaperaccess.com/mega-man)
 
 ## The Mega Man Logo
@@ -114,6 +114,12 @@ The Mega Man vector logo used was taken from a link called [Sprites-inc](http://
 
 To make it more immersive and relevant to the name of the Mega Man-themed memory game, I added the text "Memory Game." This was edited using [Canva](https://www.canva.com/). The text that was used is called "Squartiqa."
 
+## Mega Man Cursor
+
+On a Desktop and Laptop, I have added a Mega Man cursor to make the gaming experience more immersive and fun. The cursor can be found on 
+[cursors-4u](http://www.cursors-4u.com/cursor/2009/02/17/mega-man-2.html)
+
+![Mega-Man-Cursor](assets/photos/megamancursor.png)
 
 ## The Game music
 
@@ -148,6 +154,7 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
+
 
 # Credits
 
