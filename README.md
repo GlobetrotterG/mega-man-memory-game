@@ -158,7 +158,41 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 
 # Credits
 
+## Photos, Logo, Cursor, Music, Colour themes and Additional Information
 
+* For the the photos, cursor and logo used in this project, including the editing of it, I want to give credit to the following: 
+    * [Clipartmax](https://www.clipartmax.com/)
+    * [favpng](https://favpng.com/)
+    * [Canva](https://www.canva.com/)
+    * [Sprites-inc](http://sprites-inc.co.uk/)
+    * [Wallpaperaccess](https://wallpaperaccess.com/mega-man)
+    * [cursors-4u](http://www.cursors-4u.com/cursor/2009/02/17/mega-man-2.html)
+
+* For the Music and Sound effects, I want to give credit to the following: 
+    * [khinsider](https://downloads.khinsider.com/)
+    * [101soundboards](https://www.101soundboards.com/)
+
+* For the Colour themes, I want to give credit to the following: 
+    * [color-hex](https://www.color-hex.com/)
+    * [diaries of an essex girl](https://diariesofanessexgirl.com/)
+    * [coolors](https://coolors.co/)
+
+* For the additional information provided here in README for the backstory of Mega Man and the Robot characters, I want to give credit to the following: 
+    * [Wikipedia](https://en.wikipedia.org/)
+    * [Fandom](https://www.fandom.com/)
+
+## Acknowledgements
+
+I want to extend my biggest gratitude to the following: 
+
+* Once again, I want to thank my amazing mentor, [Simen Daehlin](www.github.com/Eventyret), whose been very inspiring and motivsting throughout this project. This was one of the most challenging projects I've faced, but he gave me the "You can do it!" mindset. Fast forward, and now I am able to create this project with his motivation. Thank you Simen! 
+* I also want to thank the Code Institute community via Slack. We have such an amazing group who shares the same passion and interest in what we do! The guys in Slack have been very helpful with any questions I may have, or any students who may have similar questions to me.  
+* I want to thank [Capcom](http://www.capcom-europe.com/) for creating a game that made waves in the games industry. Without their creation of the Mega Man game, I would have not been able to draw inspiration in creating this project! 
+
+Throughtout the behind-the-scenes in creating this project, and having a lot of experimenting and checking what works for this project, I want to thank these contents and developers who are masters of their crafts in the world of Software development, as I've drawn inspiration and insights for this project: 
+* [How To Code A Card Game In Plain JavaScript - Spooky Halloween Edition by PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ)
+* [Memory Card Game - JavaScript Tutorial by freecodecamp.org](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=876s)
+* [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=168s)
 
 
 # Site / Game Disclaimer 
