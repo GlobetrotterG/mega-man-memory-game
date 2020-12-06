@@ -7,7 +7,7 @@ class AudioController {
         this.gameOverSound = new Audio('assets/soundtrack/gameover.mp3');
         this.bgMusic.volume = 0.3;
         this.flipSound.volume = 0.1;
-        this.matchSound.volume = 0.3;
+        this.matchSound.volume = 0.5;
         this.bgMusic.loop = true;
     }
     startMusic() {

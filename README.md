@@ -20,40 +20,41 @@ I put a lot of inspiration in creating this memory game. Whether you're a fan of
   * [Start Text](#start-text)
   * [Timer](#timer)
   * [Flips](#flips)
-  * [Music On/Off](#music-on-off)
+  * [Music On and Off](#music-on-and-off)
   * [Win and Game Over Message](#win-and-game-over-message)
 - [The Game Theme](#the-game-theme)
   * [The Game characters](#the-game-characters)
-    + [[Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series) - Mega Man 1-5](#-mega-man--https---megamanfandomcom-wiki-mega-man--original-series----mega-man-1-5)
-    + [[Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1](#-guts-man--https---megamanfandomcom-wiki-guts-man----mega-man-1)
-    + [[Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2](#-air-man--https---megamanfandomcom-wiki-air-man----mega-man-2)
-    + [[Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3](#-snake-man--https---megamanfandomcom-wiki-snake-man----mega-man-3)
-    + [[Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4](#-toad-man--https---megamanfandomcom-wiki-toad-man----mega-man-4)
-    + [[Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5](#-gravity-man--https---megamanfandomcom-wiki-gravity-man----mega-man-5)
+    + [Mega Man](#mega-man)
+    + [Guts Man](#guts-man)
+    + [Air Man](#air-man)
+    + [Snake Man](#snake-man)
+    + [Toad Man](#toad-man)
+    + [Gravity Man](#gravity-man)
   * [Back Card](#back-card)
-    + [Mega Man Helmet Photo](#mega-man-helmet-photo)
   * [Game Background Photo](#game-background-photo)
   * [The Mega Man Logo](#the-mega-man-logo)
   * [Mega Man Cursor](#mega-man-cursor)
   * [The Game Music](#the-game-music)
-    + [Start Game Music Background - Taken from the Title Screen (Mega Man 2).](#start-game-music-background---taken-from-the-title-screen--mega-man-2-)
-    + [Card Picker - Is the sound when Mega Man jumps in his Mega Man games.](#card-picker---is-the-sound-when-mega-man-jumps-in-his-mega-man-games)
-    + [Cards Match - Is the sound when Mega Man gets a Bonus ball.](#cards-match---is-the-sound-when-mega-man-gets-a-bonus-ball)
-    + [Game Over - Is the sound when Mega Man gets defeated (Mega Man 4).](#game-over---is-the-sound-when-mega-man-gets-defeated--mega-man-4-)
+    + [Start Game Music Background](#start-game-music-background)
+    + [Card Picker](#card-picker)
+    + [Cards Match](#cards-match)
+    + [Game Over Sound](#game-over-sound)
 - [Colour Theme](#colour-theme)
-  * [Coolors Colour Palette:](#coolors-colour-palette-)
     + [Mega Man Image](#mega-man-image)
     + [Proto Man Image](#proto-man-image)
-- [Fonts](#fonts)
+- [Google Fonts](#google-fonts)
 - [Deployment](#deployment)
   * [Cloning Mega Man Memory Game from GitHub](#cloning-mega-man-memory-game-from-github)
 - [Testing](#testing)
 - [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
 - [Credits](#credits)
-  * [Photos, Logo, Cursor, Music, Colour themes and Additional Information](#photos--logo--cursor--music--colour-themes-and-additional-information)
+  * [Photos and Logo](#photos-and-logo)
+  * [Music](#music)
+  * [Colour](#colour)
+  * [Game Character Information](#game-character-information)
   * [Acknowledgements](#acknowledgements)
-- [Site / Game Disclaimer](#site---game-disclaimer)
+- [Site Disclaimer](#site-disclaimer)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -121,7 +122,7 @@ All my wireframes can be viewed here: [Wireframes](https://github.com/Globetrott
 * The number of flips feature was included in order for the user to assess the number of flips they've made within 60 seconds. 
 * It's a fun feature to add as it challenges the user. 
 
-## Music On/Off
+## Music On and Off
 
 * Is added for the user to control the music of the game and giving them the option to play the game with or without music. 
 * This can be controlled by pressing the icon. 
@@ -147,36 +148,55 @@ This game uses inspiration from a selected 5 robot characters from Mega Man 1 - 
 
 ## The Game characters
 
-### [Mega Man](https://megaman.fandom.com/wiki/Mega_Man_(original_series) - Mega Man 1-5
+### Mega Man
+
+Is the main character
 ![Mega-Man](assets/photos/megamancard.png)
-* Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2H7H7H7G6A0H7A0_mega-man-blue-video-game-character/)
+* Photo source link on [Clipartmax](https://bit.ly/3opkqCf)
+* Character information [here](https://bit.ly/3mNA2z6)
 
-### [Guts Man](https://megaman.fandom.com/wiki/Guts_Man) - Mega Man 1
+### Guts Man
+
+Is a character from Mega Man 1
 ![Guts-Man](assets/photos/gutsman.png)
-* Photo source link on [favpng](https://favpng.com/png_view/magnet-toys-mega-man-7-mega-man-bass-mega-man-the-power-battle-mega-man-powered-up-png/fqyJN7L0)
+* Photo source link on [favpng](https://bit.ly/2IjnmRx)
+* Character information [here](https://bit.ly/3ot2N4l)
 
-### [Air Man](https://megaman.fandom.com/wiki/Air_Man) - Mega Man 2
+### Air Man
+
+Is a character from Mega Man 2
 ![Air-Man](assets/photos/airman.png)
-* Photo source link on [favpng](https://favpng.com/png_view/mega-man-9-mega-man-2-street-fighter-x-mega-man-dr-wily-street-fighter-x-tekken-png/fq0DPtTx)
+* Photo source link on [favpng](https://bit.ly/3otCICs)
+* Character information [here](https://bit.ly/36LBrj)
 
-### [Snake Man](https://megaman.fandom.com/wiki/Snake_Man) - Mega Man 3
+### Snake Man
+
+Is a character from Mega Man 3
 ![Snake-Man](assets/photos/snakeman.png)
-* Photo source link on [favpng](https://favpng.com/png_view/mega-sale-mega-man-3-mega-man-6-shadow-man-snake-png/QThL9Hyi)
+* Photo source link on [favpng](https://bit.ly/3gfa19g)
+* Character information [here](https://bit.ly/33MRUCL)
 
-### [Toad Man](https://megaman.fandom.com/wiki/Toad_Man) - Mega Man 4 
+### Toad Man
+
 ![Toad-Man](assets/photos/toadman.png)
-* Photo source link on [favpng](https://favpng.com/png_view/garbage-man-cartoon-mega-man-4-mega-man-2-mega-man-iv-mega-man-9-mega-man-3-png/Af6NvSkL)
 
-### [Gravity Man](https://megaman.fandom.com/wiki/Gravity_Man) - Mega Man 5
+Is a character from Mega Man 4
+* Photo source link on [favpng](https://bit.ly/2LcIVEp)
+* Character information [here](https://bit.ly/2Ipaj0Y)
+
+### Gravity Man
+
+Is a character from Mega Man 5
 ![Gravity-Man](assets/photos/gravityman.png)
-* Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2i8m2i8N4A0H7K9_follow-mega-man-gravity-man/)
+* Photo source link on [Clipartmax](https://bit.ly/2JwC20k)
+* Character information [here](https://bit.ly/39KMyLQ)
 
 ## Back Card
 For the back card of the game, I used Mega Man's helmet as the picture which complimented the theme of the game.
 
-### Mega Man Helmet Photo
+Mega Man Helmet Photo
 ![Mega-Man-Helemt](assets/photos/megamanhat.png)
-* Photo source link on [Clipartmax](https://www.clipartmax.com/middle/m2i8N4N4H7K9G6d3_mega-man-10-proto-man-helmet-clip-art-draw-mega-mans-helmet/)
+* Photo source link on [Clipartmax](https://bit.ly/2JyCF9E)
 
 ## Game Background Photo 
 The background photo was taken from the Title screen in Mega Man 2. It compliments the game, and gives that Mega Man universe vibe. 
@@ -206,29 +226,27 @@ On a Desktop and Laptop, I have added a Mega Man cursor to make the gaming exper
     * When you win the game
 * Selection of the music and sound effects have been carefully selected to compliment the game itself. For Mega Man fans, this will also reminisce their gaming experience when they are playing a Mega Man game. 
 
-Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soundtracks/album/megaman-2-original-soundtrack) and [101soundboards](https://www.101soundboards.com/boards/10834-mega-man-sounds).
+Music were downloaded from [khinsider](https://bit.ly/3qzSSMr) and [101soundboards](https://bit.ly/2JY49VG).
 
-### Start Game Music Background - Taken from the Title Screen (Mega Man 2). 
-* Check the music link [here](https://downloads.khinsider.com/game-soundtracks/album/megaman-2-original-soundtrack/02%2520-%2520Title%2520Screen.mp3)
+### Start Game Music Background
+* Check the music link [here](https://bit.ly/36OjOzS)
 
-### Card Picker - Is the sound when Mega Man jumps in his Mega Man games. 
-* Check the music link [here - Number 6](https://www.101soundboards.com/boards/10834-mega-man-sounds)
+### Card Picker
+* Check the music link [here - Number 6](https://bit.ly/36O8GmK)
 
-### Cards Match - Is the sound when Mega Man gets a Bonus ball.
-* Check the music link [here - Number 26](https://www.101soundboards.com/boards/10834-mega-man-sounds)
+### Cards Match
+* Check the music link [here - Number 26](https://bit.ly/3gnH0Z5)
 
-### Game Over - Is the sound when Mega Man gets defeated (Mega Man 4). 
-* Check the music link [here](https://downloads.khinsider.com/game-soundtracks/album/megaman-4-original-soundtrack/30%2520-%2520Game%2520Over.mp3)
+### Game Over Sound 
+* Check the music link [here](https://bit.ly/3lM0Jmj)
 
 # Colour Theme
 
 * Choosing the colour theme for this game was mainly inspired from the colour palette's of both Mega Man and Proto Man characters. 
 * Mega Man has elements of Blue, while Proto Man has elements of Red. 
 * Colour palette for Mega Man was idea was taken from the color-hex link created by a user named [dunstontc](https://www.color-hex.com/color-palette/25174).
-* Colour palette for Proto Man was idea was taken from a site called [diariesofanessexgirl](https://diariesofanessexgirl.com/retro-proto-man-color-palette/) and created by a user named [Joshua Margolin](https://diariesofanessexgirl.com/retro-proto-man-color-palette/).
-* I've compiled all the colour palette ideas incorporated in the game from a site called [coolors](https://coolors.co/).
-
-## Coolors Colour Palette:
+* Colour palette for Proto Man was idea was taken from a site called [diariesofanessexgirl](https://diariesofanessexgirl.com/retro-proto-man-color-palette) and created by a user named [Joshua Margolin](https://diariesofanessexgirl.com/retro-proto-man-color-palette/).
+* I've compiled all the colour palette ideas incorporated in the game from a site called [coolors](https://coolors.co).
 
 ![colour-pallette](assets/photos/megamangamecolours.png)
 
@@ -238,11 +256,12 @@ Music were downloaded from [khinsider](https://downloads.khinsider.com/game-soun
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
 
-# Fonts
+# Google Fonts
 
 I went for 2 fonts to compliment the theme of the game using [Google Fonts](https://fonts.google.com/). They are: 
-* [Rubik Mono One](https://fonts.google.com/specimen/Rubik+Mono+One?query=rubik+mo) - For the Timer and Flip text.
-* [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=press+) - For the Start Game Text.
+
+* [Rubik Mono One](https://bit.ly/3lVUL2x) - For the Timer and Flip text.
+* [Press Start 2P](https://bit.ly/3gdH4us) - For the Start Game Text.
 
 # Deployment
 
@@ -298,12 +317,14 @@ Tools and Libraries
 * GitPod
 * GitHub
 * Font-Awesome
+* bitly
 
 # Credits
 
-## Photos, Logo, Cursor, Music, Colour themes and Additional Information
+## Photos and Logo
 
-* For the the photos, cursor and logo used in this project, including the editing of it, I want to give credit to the following: 
+* For the the photos, logo, cursor used in this project, including the editing of it, I want to give credit to the following: 
+
     * [Clipartmax](https://www.clipartmax.com/)
     * [favpng](https://favpng.com/)
     * [Canva](https://www.canva.com/)
@@ -311,18 +332,26 @@ Tools and Libraries
     * [Wallpaperaccess](https://wallpaperaccess.com/mega-man)
     * [cursors-4u](http://www.cursors-4u.com/cursor/2009/02/17/mega-man-2.html)
 
+## Music
+
 * For the Music and Sound effects, I want to give credit to the following: 
+
     * [khinsider](https://downloads.khinsider.com/)
     * [101soundboards](https://www.101soundboards.com/)
 
+## Colour
+
 * For the Colour themes, I want to give credit to the following: 
     * [color-hex](https://www.color-hex.com/)
-    * [diaries of an essex girl](https://diariesofanessexgirl.com/)
+    * [diaries of an essex girl](https://diariesofanessexgirl.com)
     * [Coolors](https://coolors.co/)
 
 * I used [Coolors](https://coolors.co/) to remove the background on the character's photos.
 
+## Game Character Information 
+
 * For the additional information provided here in README for the backstory of Mega Man and the Robot characters, I want to give credit to the following: 
+
     * [Wikipedia](https://en.wikipedia.org/)
     * [Fandom](https://www.fandom.com/)
 
@@ -330,7 +359,7 @@ Tools and Libraries
 
 I want to extend my biggest gratitude to the following: 
 
-* Once again, I want to thank my amazing mentor, [Simen Daehlin](www.github.com/Eventyret), whose been very inspiring and motivsting throughout this project. This was one of the most challenging projects I've faced, but he gave me the "You can do it!" mindset. Fast forward, and now I am able to create this project with his motivation. Thank you, Simen! 
+* Once again, I want to thank my amazing mentor, [Simen Daehlin](www.github.com/Eventyret), whose been very inspiring and motivating throughout this project. This was one of the most challenging projects I've faced, but he gave me the "You can do it!" mindset. Fast forward, and now I am able to create this project with his motivation. Thank you, Simen! 
 * I also want to thank the Code Institute community via Slack. We have such an amazing group who shares the same passion and interest in what we do! The guys in Slack have been very helpful with any questions I may have, or any students who may have similar questions to me.  
 * I want to thank [Capcom](http://www.capcom-europe.com/) for creating a game that made waves in the games industry. Without their creation of the Mega Man game, I would have not been able to draw inspiration in creating this project! 
 
@@ -340,6 +369,6 @@ Throughout the behind-the-scenes in creating this project, and having a lot of e
 * [How to Code a Card Matching Game](https://www.youtube.com/watch?v=28VfzEiJgy4&t=168s)
 
 
-# Site / Game Disclaimer 
+# Site Disclaimer 
 
 * This game site and its contents were created for educational purposes. No Copyright infrigement intended to [Capcom](http://www.capcom-europe.com/).
