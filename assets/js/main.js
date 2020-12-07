@@ -10,10 +10,10 @@ class SoundBarMusic {
         this.soundWhenMatched.volume = 0.5;
         this.gameMusic.loop = true;
     }
-    musicBegin() {
+    beginTheMusic() {
         this.gameMusic.play();
     }
-    pauseMusic() {
+    pauseTheMusic() {
         this.gameMusic.pause();
         this.gameMusic.currentTime = 0;
     }
@@ -24,11 +24,11 @@ class SoundBarMusic {
         this.soundWhenMatched.play();
     }
     itsAWin() {
-        this.pauseMusic();
+        this.pauseTheMusic();
         this.winSound.play();
     }
     itsGameOver() {
-        this.pauseMusic();
+        this.pauseTheMusic();
         this.youLoseSound.play();
     }
 }
@@ -49,7 +49,7 @@ class MegaManMemoryGame {
         this.matchedRobotCharacters = [];
         this.analysingFlips = true;
         setTimeout(() => {
-            this.soundBarMusic.musicBegin();
+            this.soundBarMusic.beginTheMusic();
             this.changeCharacterCards();
             this.timerStartsCounting = this.beginTheTimer();
             this.analysingFlips = false;
@@ -135,10 +135,10 @@ class MegaManMemoryGame {
     }
 }
 
-function prepareGame() {
+function prepareGame(gameTime = 60) {
     let gameTexts = Array.from(document.getElementsByClassName('text-theme'));
     let megaManRobotDecks = Array.from(document.getElementsByClassName('card'));
-    let playMegaManGame = new MegaManMemoryGame(60, megaManRobotDecks);
+    let playMegaManGame = new MegaManMemoryGame(gameTime, megaManRobotDecks);
 
     gameTexts.forEach(textOverlay => {
         textOverlay.addEventListener('click', () => {
@@ -154,9 +154,9 @@ function prepareGame() {
 }
 
 if(document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', prepareGame());
+    document.addEventListener('DOMContentLoaded', prepareGame(60));
 } else {
-    prepareGame();
+    prepareGame(60);
 }
 
 
