@@ -86,7 +86,7 @@ In addition, my goal in creating this game is:
 ## User Stories
 
 * To play a game that is fun, interactive, and conceptual. 
-* To play a game that is inspired by one of the Classic games that bring memories.
+* To play a game that is inspired by one of the classic games that bring memories.
 * To play a game that uses characters that I am a fan of.
 * To play a game that tests and challenges my memory skills within a timeframe. 
 * To play a game that lets me play repeatedly.
@@ -255,6 +255,8 @@ Music were downloaded from [khinsider](https://bit.ly/3qzSSMr) and [101soundboar
 
 ### Proto Man Image
 ![Proto-Man](assets/photos/protoman.jpg)
+
+Character information [here](https://bit.ly/33RGxJK)
 
 # Google Fonts
 
