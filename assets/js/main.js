@@ -27,7 +27,7 @@ class SoundBarMusic {
         this.pauseMusic();
         this.winSound.play();
     }
-    itsEndGame() {
+    itsGameOver() {
         this.pauseMusic();
         this.youLoseSound.play();
     }
@@ -85,20 +85,20 @@ class MegaManMemoryGame {
 
         this.checkRobotCharacterCard = null;
     }
-    robotCharacterCardsPaired(robotcharacter1, robotcharacter2) {
-        this.matchedRobotCharacters.push(robotcharacter1);
-        this.matchedRobotCharacters.push(robotcharacter2);
-        robotcharacter1.classList.add('matched');
-        robotcharacter2.classList.add('matched');
+    robotCharacterCardsPaired(robotCharacterCard1, robotCharacterCard2) {
+        this.matchedRobotCharacters.push(robotCharacterCard1);
+        this.matchedRobotCharacters.push(robotCharacterCard2);
+        robotCharacterCard1.classList.add('matched');
+        robotCharacterCard2.classList.add('matched');
         this.soundBarMusic.itsAMatch();
         if(this.matchedRobotCharacters.length === this.characterDeckArray.length)
             this.itsAWin();
     }
-    cardsNotMatching(robotcharacter1, robotcharacter2) {
+    cardsNotMatching(robotCharacterCard1, robotCharacterCard2) {
         this.analysingFlips = true;
         setTimeout(() => {
-            robotcharacter1.classList.remove('show');
-            robotcharacter2.classList.remove('show');
+            robotCharacterCard1.classList.remove('show');
+            robotCharacterCard2.classList.remove('show');
             this.analysingFlips = false;
         }, 1000);
     }
@@ -110,12 +110,12 @@ class MegaManMemoryGame {
             this.theTimeLeft--;
             this.timerSetting.innerText = this.theTimeLeft;
             if(this.theTimeLeft === 0)
-                this.itsEndGame();
+                this.itsGameOver();
         }, 1000);
     }
-    itsEndGame() {
+    itsGameOver() {
         clearInterval(this.timerStartsCounting);
-        this.soundBarMusic.itsEndGame();
+        this.soundBarMusic.itsGameOver();
         document.getElementById('you-lose-text').classList.add('show');
     }
     itsAWin() {
