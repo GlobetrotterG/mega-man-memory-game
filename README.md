@@ -85,15 +85,16 @@ In addition, my goal in creating this game is:
 
 ## User Stories
 
-* To play a game that is fun, interactive, and conceptual. 
-* To play a game that is inspired by one of the classic games that bring memories.
-* To play a game that uses characters that I am a fan of.
-* To play a game that tests and challenges my memory skills within a timeframe. 
-* To play a game that lets me play repeatedly.
-* To play a game that I can use as my daily dose of brainpower.
-* To play a game that provides me instructions on how to play it. 
-* To play I game that works on a laptop, desktop, tablet, and mobile. 
-* To control the music or sound at my convenience.
+As a user:
+
+* I want to play a game that is fun, colourful, interactive, and conceptual. 
+* I want to play an interesting game that I can use as my daily dose of brainpower.
+* I want to play a game that provides me instructions on how to play it. 
+* I want to play I game that works on a laptop, desktop, tablet, and mobile. 
+* I want to play a game that tests and challenges my memory skills within a timeframe. 
+* I want a game that lets me play repeatedly.
+* I want to experience playing a game inspired by one of the classic games that is nostalgic.
+* I want a game that I can control the music or sound at my convenience. 
 
 # Wireframes 
 
