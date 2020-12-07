@@ -1,162 +1,162 @@
-class AudioController {
+class SoundBarMusic {
     constructor() {
-        this.bgMusic = new Audio('assets/soundtrack/titlescreen.mp3');
-        this.flipSound = new Audio('assets/soundtrack/pickacard.mp3');
-        this.matchSound = new Audio('assetssoundtrack/rightcards.mp3');
+        this.gameMusic = new Audio('assets/soundtrack/titlescreen.mp3');
+        this.flippingTone = new Audio('assets/soundtrack/pickacard.mp3');
+        this.soundWhenMatched = new Audio('assets/soundtrack/rightcards.mp3');
         this.winSound = new Audio('assets/soundtrack/victory.mp3');
-        this.gameOverSound = new Audio('assets/soundtrack/gameover.mp3');
-        this.bgMusic.volume = 0.3;
-        this.flipSound.volume = 0.1;
-        this.matchSound.volume = 0.5;
-        this.bgMusic.loop = true;
+        this.youLoseSound = new Audio('assets/soundtrack/gameover.mp3');
+        this.gameMusic.volume = 0.3;
+        this.flippingTone.volume = 0.1;
+        this.soundWhenMatched.volume = 0.5;
+        this.gameMusic.loop = true;
     }
-    startMusic() {
-        this.bgMusic.play();
+    musicBegin() {
+        this.gameMusic.play();
     }
-    stopMusic() {
-        this.bgMusic.pause();
-        this.bgMusic.currentTime = 0;
+    pauseMusic() {
+        this.gameMusic.pause();
+        this.gameMusic.currentTime = 0;
     }
-    flip() {
-        this.flipSound.play();
+    flippingTheCard() {
+        this.flippingTone.play();
     }
-    match() {
-        this.matchSound.play();
+    itsAMatch() {
+        this.soundWhenMatched.play();
     }
-    win() {
-        this.stopMusic();
+    itsAWin() {
+        this.pauseMusic();
         this.winSound.play();
     }
-    gameOver() {
-        this.stopMusic();
-        this.gameOverSound.play();
+    itsEndGame() {
+        this.pauseMusic();
+        this.youLoseSound.play();
     }
 }
 
 class MegaManMemoryGame {
-    constructor(totalTime, cards) {
-        this.cardsArray = cards;
-        this.totalTime = totalTime;
-        this.timeRemaining = totalTime;
-        this.timer = document.getElementById('time-remaining');
-        this.ticker = document.getElementById('flips');
-        this.audioController = new AudioController();
+    constructor(gameTime, megaManRobotDecks) {
+        this.characterDeckArray = megaManRobotDecks;
+        this.gameTime = gameTime;
+        this.theTimeLeft = gameTime;
+        this.timerSetting = document.getElementById('time-remaining');
+        this.flipCounter = document.getElementById('flips');
+        this.soundBarMusic = new SoundBarMusic();
     }
-    startGame() {
-        this.cardToCheck = null;
-        this.totalClicks = 0;
-        this.timeRemaining = this.totalTime;
-        this.matchedCards = [];
-        this.busy = true;
+    playMegaManGameNow() {
+        this.checkRobotCharacterCard = null;
+        this.numberOfFlips = 0;
+        this.theTimeLeft = this.gameTime;
+        this.matchedRobotCharacters = [];
+        this.analysingFlips = true;
         setTimeout(() => {
-            this.audioController.startMusic();
-            this.shuffleCards();
-            this.countDown = this.startCountDown();
-            this.busy = false;
+            this.soundBarMusic.musicBegin();
+            this.changeCharacterCards();
+            this.timerStartsCounting = this.beginTheTimer();
+            this.analysingFlips = false;
         }, 500);
-        this.hideCards();
-        this.timer.innerText = this.timeRemaining;
-        this.ticker.innerText = this.totalClicks;
+        this.concealTheCards();
+        this.timerSetting.innerText = this.theTimeLeft;
+        this.flipCounter.innerText = this.numberOfFlips;
     }
-    hideCards() {
-        this.cardsArray.forEach(card => {
+    concealTheCards() {
+        this.characterDeckArray.forEach(card => {
             card.classList.remove('show');
-            card.ClassList.remove('matched');
+            card.classList.remove('matched');
         });
     }
-    flipCard(card) {
-        if(this.canFlipCard(card)) {
-            this.audioController.flip();
-            this.totalClicks++;
-            this.ticker.innerText = this.totalClicks;
+    doTheCardFlip(card) {
+        if(this.getCardToFlip(card)) {
+            this.soundBarMusic.flippingTheCard();
+            this.numberOfFlips++;
+            this.flipCounter.innerText = this.numberOfFlips;
             card.classList.add('show');
 
-            if(this.cardToCheck)
+            if(this.checkRobotCharacterCard)
                 this.checkForCardMatch(card);
             else
-                this.cardToCheck = card;       
+                this.checkRobotCharacterCard = card;       
         }
     }
     checkForCardMatch(card) {
-        if(this.getCardType(card) === this.getCardType(this.cardToCheck))
-            this.cardMatch(card, this.cardToCheck);
+        if(this.getMegaManRobotCard(card) === this.getMegaManRobotCard(this.checkRobotCharacterCard))
+            this.robotCharacterCardsPaired(card, this.checkRobotCharacterCard);
         else
-            this.cardMisMatch(card, this.cardToCheck);
+            this.cardsNotMatching(card, this.checkRobotCharacterCard);
 
-        this.cardToCheck = null;
+        this.checkRobotCharacterCard = null;
     }
-    cardMatch(card1, card2) {
-        this.matchedCards.push(card1);
-        this.matchedCards.push(card2);
-        card1.classList.add('matched');
-        card2.classList.add('matched');
-        this.audioController.match();
-        if(this.matchedCards.length === this.cardsArray.length)
-            this.win();
+    robotCharacterCardsPaired(robotcharacter1, robotcharacter2) {
+        this.matchedRobotCharacters.push(robotcharacter1);
+        this.matchedRobotCharacters.push(robotcharacter2);
+        robotcharacter1.classList.add('matched');
+        robotcharacter2.classList.add('matched');
+        this.soundBarMusic.itsAMatch();
+        if(this.matchedRobotCharacters.length === this.characterDeckArray.length)
+            this.itsAWin();
     }
-    cardMisMatch(card1, card2) {
-        this.busy = true;
+    cardsNotMatching(robotcharacter1, robotcharacter2) {
+        this.analysingFlips = true;
         setTimeout(() => {
-            card1.classList.remove('show');
-            card2.classList.remove('show');
-            this.busy = false;
+            robotcharacter1.classList.remove('show');
+            robotcharacter2.classList.remove('show');
+            this.analysingFlips = false;
         }, 1000);
     }
-    getCardType(card) {
+    getMegaManRobotCard(card) {
         return card.getElementsByClassName('megaman-character')[0].src;
     }
-    startCountDown() {
+    beginTheTimer() {
         return setInterval(() => {
-            this.timeRemaining--;
-            this.timer.innerText = this.timeRemaining;
-            if(this.timeRemaining === 0)
-                this.gameOver();
+            this.theTimeLeft--;
+            this.timerSetting.innerText = this.theTimeLeft;
+            if(this.theTimeLeft === 0)
+                this.itsEndGame();
         }, 1000);
     }
-    gameOver() {
-        clearInterval(this.countDown);
-        this.audioController.gameOver();
+    itsEndGame() {
+        clearInterval(this.timerStartsCounting);
+        this.soundBarMusic.itsEndGame();
         document.getElementById('you-lose-text').classList.add('show');
     }
-    win() {
-        clearInterval(this.countDown);
-        this.audioController.win();
+    itsAWin() {
+        clearInterval(this.timerStartsCounting);
+        this.soundBarMusic.itsAWin();
         document.getElementById('win-text').classList.add('show');
     }
-    shuffleCards() {
-        for(let megamanCharacter = this.cardsArray.length - 1; megamanCharacter > 0; megamanCharacter--) {
+    changeCharacterCards() {
+        for(let megamanCharacter = this.characterDeckArray.length - 1; megamanCharacter > 0; megamanCharacter--) {
             let megamanIndex = Math.floor(Math.random() * (megamanCharacter+1));
-            this.cardsArray[megamanIndex].style.order = megamanCharacter;
-            this.cardsArray[megamanCharacter].style.order = megamanIndex;
+            this.characterDeckArray[megamanIndex].style.order = megamanCharacter;
+            this.characterDeckArray[megamanCharacter].style.order = megamanIndex;
         }
     }
-    canFlipCard(card) {
-       return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
+    getCardToFlip(card) {
+       return !this.analysingFlips && !this.matchedRobotCharacters.includes(card) && card !== this.checkRobotCharacterCard;
     }
 }
 
-function ready() {
-    let overlays = Array.from(document.getElementsByClassName('text-theme'));
-    let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MegaManMemoryGame(60, cards);
+function prepareGame() {
+    let gameTexts = Array.from(document.getElementsByClassName('text-theme'));
+    let megaManRobotDecks = Array.from(document.getElementsByClassName('card'));
+    let playMegaManGame = new MegaManMemoryGame(60, megaManRobotDecks);
 
-    overlays.forEach(overlay => {
-        overlay.addEventListener('click', () => {
-            overlay.classList.remove('show');
-            game.startGame();
+    gameTexts.forEach(textOverlay => {
+        textOverlay.addEventListener('click', () => {
+            textOverlay.classList.remove('show');
+            playMegaManGame.playMegaManGameNow();
         });
     });
-    cards.forEach(card => {
+    megaManRobotDecks.forEach(card => {
         card.addEventListener('click', () => {
-            game.flipCard(card);
+            playMegaManGame.doTheCardFlip(card);
         });
     });
 }
 
 if(document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', ready());
+    document.addEventListener('DOMContentLoaded', prepareGame());
 } else {
-    ready();
+    prepareGame();
 }
 
 
