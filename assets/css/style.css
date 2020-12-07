@@ -21,7 +21,7 @@ body {
 
 .game-title {
     color: #c01818;
-    font-family: Rubik Mono One, sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
     font-weight: normal;
     text-align: center;
     font-size: 4em;
@@ -104,6 +104,12 @@ body {
     display: flex;
     flex-direction: column;
     animation: overlay-grow 500ms forwards;
+    background-image: url(../photos/megamanwallpaper3.png);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
 }
 
 @keyframes overlay-grow {
@@ -112,7 +118,7 @@ body {
         font-size: 0;
     }
     to {
-        background-color: rgba (192, 24, 24, .8);
+        background-color: rgba(192, 24, 24, .8);
         font-size: 3.5em;
     }
 }
