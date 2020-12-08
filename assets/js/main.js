@@ -31,6 +31,13 @@ class SoundBarMusic {
         this.pauseTheMusic();
         this.youLoseSound.play();
     }
+    muteMusic() {
+        this.gameMusic.muted = !this.gameMusic.muted;
+        this.youLoseSound.muted = !this.youLoseSound.muted;
+        this.winSound.muted = !this.winSound.muted;
+        this.soundWhenMatched.muted = !this.soundWhenMatched.muted;
+        this.flippingTone.muted = !this.flippingTone.muted;
+    }
 }
 
 class MegaManMemoryGame {
@@ -58,6 +65,10 @@ class MegaManMemoryGame {
         this.timerSetting.innerText = this.theTimeLeft;
         this.flipCounter.innerText = this.numberOfFlips;
     }
+    muteButton(){
+        this.soundBarMusic.muteMusic();
+    }
+
     concealTheCards() {
         this.characterDeckArray.forEach(card => {
             card.classList.remove('show');
@@ -137,9 +148,12 @@ class MegaManMemoryGame {
 
 function prepareGame(gameTime = 60) {
     let gameTexts = Array.from(document.getElementsByClassName('text-theme'));
+    let muteButton = document.getElementById("muteButton");
     let megaManRobotDecks = Array.from(document.getElementsByClassName('card'));
     let playMegaManGame = new MegaManMemoryGame(gameTime, megaManRobotDecks);
-
+    muteButton.addEventListener('click',() => {
+        playMegaManGame.muteButton();
+    });
     gameTexts.forEach(textOverlay => {
         textOverlay.addEventListener('click', () => {
             textOverlay.classList.remove('show');

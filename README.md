@@ -289,7 +289,7 @@ When deploying Mega Man Memory Game using GitHub Pages, the following steps were
 * Copy the url in the dropdown box. 
 * Using your favourite **IDE,** open up your preferred **terminal**. 
 * Navigate to your desired file location. 
-* Copy the following **code** and input it into your terminal to clone Mega Man Memory Game! 
+* Copy the following **code** and input it into your terminal to clone Mega Man Memory Game.
 
 ```
 git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
