@@ -102,8 +102,21 @@ My wireframes were all created using [Balsamiq wireframes](https://balsamiq.com/
 
 All my wireframes can be viewed here: [Wireframes](https://github.com/GlobetrotterG/mega-man-memory-game/tree/master/wireframes).
 
-# Features
+## Wireframes Update: 
 
+* Due to the time constraint of creating this project, I have decided to condense my original 6-page Wireframe, to one page. These are the changes to the Wireframes: 
+
+    * The game page starts with a "Click to Start" text, where it takes them to the game with the deck of cards instead of the "Tap to Start."
+    * The deck of cards was originally 16, but reduced to 12. 
+    * When the game begins, the time was changed to timer count instead of a bar.
+    * Number of Flips was added that wasn't on the Wireframes. 
+    * Mute on and off button which is the bell icon is a text box saying "Mute On / Mute Off"
+    * Instead of a separate page or modal that pops out when the user wins or lose, a text saying "You Win! Click to Restart" or "Game Over! Click to Restart" pops out after the game.
+
+I would like to re-create this game at some point and revert this back to the original Wireframes.
+
+# Features
+ 
 ## How To Play The Game 
 
 * The Mega Man Memory Game is a deck of 12 cards with using 6 characters. To play the game, the user must match 2 similar cards within 60 seconds to win the game. 
