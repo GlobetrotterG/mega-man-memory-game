@@ -11,36 +11,47 @@
 <title>Mega Man Memory Game</title>
 </head>
 <body>
+
+    <!----------Mega Man logo---------->
     <div class="megaman-logo-intro">
-    <img src="assets/photos/megamanlogocropped.png" class="mx-auto d-block">
+      <img src="assets/photos/megamanlogocropped.png" class="mx-auto d-block">
     </div>
+
+    <!-----------Game text instruction---------->
     <h1 class="game-title">Match All Cards To Win!</h1>
+
+    <!----------Game text to start, win, game over and timer---------->
     <div class="text-theme show">
       Click to Start
     </div>
     <div id="you-lose-text" class="text-theme">
-      GAME OVER
+      GAME OVER!
       <span class="text-theme-small">Click to Restart</span>
     </div>
     <div id="win-text" class="text-theme">
       You Win!
       <span class="text-theme-small">Click to Restart</span>
     </div>
-  <div class="memory-game-content">
+    <div class="memory-game-content">
     <div class="game-info-container">
     <div class="memory-game-info">
         Time <span id="time-remaining">60</span>
     </div>
-           <!--MUTE BUTTON-->
+
+    <!----------MUTE, Un-MUTE, and RESTART BUTTON---------->
     <div class="memory-game-info">
     <button id="muteButton">MUTE / UNMUTE</button>
     <a href="index.html"><button>RESTART</button></a>
     </div>
-   <!--MUTE BUTTON END -->
+    <!----------MUTE, Un-MUTE, and RESTART BUTTON END---------->
+
+    <!----------Game flips counter---------->
     <div class="memory-game-info">
         Flips <span id="flips">0</span>
     </div>
     </div>
+
+     <!----------Mega Man Character Cards---------->
     <div class="card">
      <div class="rear-side-card front-character-card">
         <img class="helmet" src="assets/photos/megamanhat.png" alt="megaman helmet" />

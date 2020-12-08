@@ -323,6 +323,7 @@ Tools and Libraries
 * bitly
 * W3schools
 * MDN web docs
+* TutorialRepublic
 
 # Credits
 
