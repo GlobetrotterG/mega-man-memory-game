@@ -1,4 +1,3 @@
-  
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
 
 * {
@@ -172,15 +171,7 @@ body {
 }
 
 
-@media all (max-width: 500px) {
-
-}
-
-@media (orientation: landscape) {
-
-}
-
-@media (max-width: 992px) {
+@media (max-width: 600px) {
     .memory-game-content {
         grid-template-columns: repeat(2,auto);
     }

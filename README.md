@@ -310,6 +310,119 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 
 # Testing 
 
+## I've tested this game based on the User Stories found in the UX section
+
+* User Story 1: As a user, I want to play a game that is fun, colourful, interactive and conceptual. 
+
+    * Plan
+      I want to create a game that was inspired by the Capcom game called "Mega Man," and decided to choose 6 characters from Mega Man's 1-5. Every Mega Man game has elements of colours, and this is visible with the overall theme of the game, from the charcters to text choice to synopsis of the 5 games. It was a very difficult decision choosing characters of these games, as I personally find every one of them interesting. I 
+    
+    * Implementation
+      After carefully selecting the characters for this game, I made sure that they were colourful, and appealing to the user, that catches their attention. I selected my favourite for every part of the 5 Mega Man games. I also made sure that Mega Man himself was included as a character. 
+
+    * Test 
+
+    * Result 
+
+    * Verdict
+
+* User Story 2: As a user, I want to play an interesting game that I can as my daily dose of brainpower.
+
+    * Plan
+    
+    * Implementation
+
+    * Test 
+
+    * Result 
+
+    * Verdict
+
+* User Story 3: As a user, I want to play a game that provides me instructions on how to play it.
+
+    * Plan
+      I want the user to see an instruction on how to play the game before they started the game. My plan was to create a separate page for the user to read the instruction on how to play the game.
+    
+    * Implementation
+      Due to the time constraint in creating this project, I decided to add the instructions when the user starts playing the game which is shown on top of the deck of cards. 
+
+    * Test 
+      I wrote a H1 Text on HTML to provide instructions on how to play the game. Everytime I test the game, I kept questioning myself if it would be best to add it to the Start Game Text before they entered the game, as the timer and music will automatically start the moment they enter and will not have time to read the instruction, and therefore, will feel short-changed with the time they play the game.
+
+    * Result 
+      After considering placing the instruction message together with the Start Game text, I felt it was more suitable for the user to know what is expected of the game before they start playing. 
+
+    * Verdict
+      This achieves user stories expectation.
+
+* User Story 4: As a user, I want a game that works on a laptop, desktop, tablet and mobile. 
+
+    * Plan
+    
+    * Implementation
+
+    * Test 
+
+    * Result 
+
+    * Verdict
+
+* User Story 5: As a user, I want to play a game tests and challenges my memory skills within a timeframe. 
+
+    * Plan
+      My plan is to create 16 deck of cards and give a time limit of 1 Minute and 30 Seconds. This gives enough time for the user to complete the game within the set timeframe, or challenges them to familiarise the characters and would make it easier for them to remember the positioning of the cards to be matched. 
+    
+    * Implementation
+      Due to the time constraint and simplyfying this game, I decided that a deck of 12 cards would be a suitable option, that still gives the user challenges to play the game, and have also reduced the timer to 60 seconds. The cards have been coded to have it shuffled everytime they restart the game. I also included the number of flips, in order for the user to assess the number of times when they flip the cards. This is a way for the user to be more challenged with how many times they should flip the cards and identifying where the matched cards are located. It adds to the challenge the user is expecting. The challenge begins when the user clicks the Start Game on the screen, and the timer starts to signal that the game has already started. 
+
+    * Test 
+      I have tested the cards a few times, and they were all successfully shuffled. There was an instance when I restarted the game by using the refresh button that I noticed that the card doesn't flip back and were all left front facing. I carefully inspected the code in JS, but couldn't find any mistakes. 
+
+    * Result
+      After a few attempts with checking the code, I didn't experience the problem again and cards were turned back when restarted. 
+
+    * Verdict
+      After a few tests and seeing if cards shuffled, and cards were facing back before the start of the game, this meets the expectation of the user.
+    
+* User Story 6: As a user, I want a game that lets me play repeatedly.
+
+    * Plan
+    
+    * Implementation
+
+    * Test 
+
+    * Result 
+
+    * Verdict
+
+* User Story 7: As a user, I want to experience playing a game inspired by one of the classic games that is nostalgic. 
+
+    * Plan
+    
+    * Implementation
+
+    * Test 
+
+    * Result 
+
+    * Verdict
+
+* User Story 8: As a user, I want a game that I can control the music or sound at my convenience. 
+
+    * Plan
+    
+    * Implementation
+
+    * Test 
+
+    * Result 
+
+    * Verdict
+
+
+
+
 * Site was coded using a Dell XPS 13 laptop and also used it to test website responsiveness on laptop.
 * Mobile site version was tested using an iphone 7 Plus, Samsung Galaxy S10+, Google Pixel 3a XL phones. 
 * Tablet site version was tested on an ipad Air.
