@@ -88,7 +88,6 @@ In addition, my goal in creating this game is:
 As a user:
 
 * I want to play a game that is fun, colourful, interactive, and conceptual. 
-* I want to play an interesting game that I can use as my daily dose of brainpower.
 * I want to play a game that provides me instructions on how to play it. 
 * I want to play I game that works on a laptop, desktop, tablet, and mobile. 
 * I want to play a game that tests and challenges my memory skills within a timeframe. 
@@ -315,30 +314,20 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 * User Story 1: As a user, I want to play a game that is fun, colourful, interactive and conceptual. 
 
     * Plan
-      I want to create a game that was inspired by the Capcom game called "Mega Man," and decided to choose 6 characters from Mega Man's 1-5. Every Mega Man game has elements of colours, and this is visible with the overall theme of the game, from the charcters to text choice to synopsis of the 5 games. It was a very difficult decision choosing characters of these games, as I personally find every one of them interesting. I 
+      I want to create a Memory Card game that is inspired by the Capcom game called "Mega Man," and decided to choose 6 characters from Mega Man's 1-5. Every Mega Man game has elements of colours, and this is visible with the overall theme of the game, from the charcters to text choice to synopsis of the 5 games. I wanted a concept that felt like you are in the world of Mega Man.
     
     * Implementation
-      After carefully selecting the characters for this game, I made sure that they were colourful, and appealing to the user, that catches their attention. I selected my favourite for every part of the 5 Mega Man games. I also made sure that Mega Man himself was included as a character. 
-
+      After carefully selecting the characters for this game, I made sure that they were colourful, and appealing to the user. Something that catches their attention. I selected my favourite for every part of the 5 Mega Man games. I also made sure that Mega Man himself was included as a character. The characters chosen were colourful. I made sure that the choice of background music and sound effects will make it interactive and fun for the user. In addition, a Mega Man cursor was added to the game to add an element of fun to it. 
     * Test 
+      I coded all the cards to include the 6 characters. Coded the audio music on JS, and decided to style the character cards that when cards match, it dances. Added the cursor link in CSS.
 
     * Result 
+      The outcome turned out the way I wanted it to be. The characters were pleasing to the eyes, the background music when the game starts made the game upbeat and fun. The music that you hear when you win or lose, or even when you pick a card or match has that proper retro video game that sounds fun and catchy. They mini Mega Man cursor made the game even more fun and interactive.
 
     * Verdict
+       The test has passed and meets user expectations. 
 
-* User Story 2: As a user, I want to play an interesting game that I can as my daily dose of brainpower.
-
-    * Plan
-    
-    * Implementation
-
-    * Test 
-
-    * Result 
-
-    * Verdict
-
-* User Story 3: As a user, I want to play a game that provides me instructions on how to play it.
+* User Story 2: As a user, I want to play a game that provides me instructions on how to play it.
 
     * Plan
       I want the user to see an instruction on how to play the game before they started the game. My plan was to create a separate page for the user to read the instruction on how to play the game.
@@ -355,7 +344,7 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
     * Verdict
       This achieves user stories expectation.
 
-* User Story 4: As a user, I want a game that works on a laptop, desktop, tablet and mobile. 
+* User Story 3: As a user, I want a game that works on a laptop, desktop, tablet and mobile. 
 
     * Plan
     
@@ -367,7 +356,7 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 
     * Verdict
 
-* User Story 5: As a user, I want to play a game tests and challenges my memory skills within a timeframe. 
+* User Story 4: As a user, I want to play a game tests and challenges my memory skills within a timeframe. 
 
     * Plan
       My plan is to create 16 deck of cards and give a time limit of 1 Minute and 30 Seconds. This gives enough time for the user to complete the game within the set timeframe, or challenges them to familiarise the characters and would make it easier for them to remember the positioning of the cards to be matched. 
@@ -382,45 +371,58 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
       After a few attempts with checking the code, I didn't experience the problem again and cards were turned back when restarted. 
 
     * Verdict
-      After a few tests and seeing if cards shuffled, and cards were facing back before the start of the game, this meets the expectation of the user.
+      After a few tests and seeing if cards shuffled, and cards were facing back before the start of the game. The test passed, and this meets the expectation of the user.
     
-* User Story 6: As a user, I want a game that lets me play repeatedly.
+* User Story 5: As a user, I want a game that lets me play repeatedly.
 
     * Plan
+      My plan is to come up with ways for the game to be played multiple times for the enjoyment of the user. Whether this is during or after the game.  
     
     * Implementation
+      I decided to include a restart button on the screen when the user is playing and also when they have won or lost the game as a text. When they click the text, this would restart the game. 
 
     * Test 
+      The restart text was tested several times to see if it takes the user back to the game. I also checked if the cards have turned back and re-shuffled. For the restart button, I've created the button together with the mute/unmute button. 
 
     * Result 
+      After several test both of the reset features, they have worked, and the game restarts with the cards facing back and re-shuffled. 
 
     * Verdict
+      The test has passed and meets user expectations.
 
-* User Story 7: As a user, I want to experience playing a game inspired by one of the classic games that is nostalgic. 
+* User Story 6: As a user, I want to experience playing a game inspired by one of the classic games that is nostalgic. 
 
     * Plan
+      My plan was to create a game that was inspired by one of the most popular video games created by Capcom in the lates 80's until the early 90's, and Mega Man came up. This was one of the most popular games back then, and when I First played it, it was one of the best video game experienced I had. I discovered recently that Google Play has several Mega Man games available to download, which I did. This is one of the most nostalgic game, and Capcom afficionados, and even Manga fans would still talk about Mega Man, or you would see Cosplay costumes worn that is Mega Man.   
     
     * Implementation
+      Choosing Mega Man as the theme for this memory game had a lot of thought being put in it. Choosing the classic characters, which were from the First 5 games, to the music selection, text and background photo used for the game. All these and the 12 deck of memory cards were added to this game. Background photo was selected as this came from Mega Man 2, and was one of the most iconic title page picture in the Mega Man game. The music was also the title page soundtrack from Mega Man 2, which has that retro vibe. 
 
     * Test 
-
+      Carefully selected the characters for the card. As they were downloaded using 2 different sites, one came out as a jpg and png. The background colour of the pictures were visible, so had to remove them using Canva. The music and soundtrack were carefully selected to set the tone an ambiance of the games theme. The font of the messages showing if the user has won or lost, or even before they start the game was also selected and chosen from Google Fonts to see if it compliments the games theme. The font called Press Start 2P was selected and tested.
+      
     * Result 
+      After removing the background colour from the files of the characters this worked only if the colour of the front card was White, as some files had the characters colour transparent. The music selected complimented the theme of the game, as well as the font selected from Google font complimented the games theme. It gave the game a retro vibe, and especially when a Mega Man hears it, they will recognise which Mega Man game the music was used. 
 
     * Verdict
+      The test has passed and meets user expectations.
 
-* User Story 8: As a user, I want a game that I can control the music or sound at my convenience. 
+* User Story 7: As a user, I want a game that I can control the music or sound at my convenience. 
 
     * Plan
+      My plan is to come up with an option for the user to mute and unmute the music of the game. There might be instances were the user would like to play the game without any audio distractions, and I want to make sure I find a way to achieve this.   
     
     * Implementation
+      I decided to create a mute/unmute in one button. In addition to this, I have paired this with another button which is the restart button. When the user clicks the mute/unmute button, this will silence the audio background, and any other sounds effects associated to the game. They can press the mute/unmute once again to unmute the audio background. This can be done at the users convenience. 
 
     * Test 
+      I've tested the functionality of this button throughout playing the game to see if it does mute or unmute the audio background. 
 
     * Result 
+      The button works as planned, and mutes when I press the button, and then unmutes when I press the same button.   
 
     * Verdict
-
-
+      The test has passed and meets user expectations.   
 
 
 * Site was coded using a Dell XPS 13 laptop and also used it to test website responsiveness on laptop.
