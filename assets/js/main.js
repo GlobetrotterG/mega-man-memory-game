@@ -1,3 +1,5 @@
+/* audio music  */
+
 class SoundBarMusic {
     constructor() {
         this.gameMusic = new Audio('assets/soundtrack/titlescreen.mp3');
@@ -39,6 +41,8 @@ class SoundBarMusic {
         this.flippingTone.muted = !this.flippingTone.muted;
     }
 }
+
+/* playing the game / flipping the cards  */
 
 class MegaManMemoryGame {
     constructor(gameTime, megaManRobotDecks) {
@@ -146,6 +150,8 @@ class MegaManMemoryGame {
     }
 }
 
+/* preparing the game to start  */
+
 function prepareGame(gameTime = 60) {
     let gameTexts = Array.from(document.getElementsByClassName('text-theme'));
     let muteButton = document.getElementById("muteButton");
@@ -166,6 +172,8 @@ function prepareGame(gameTime = 60) {
         });
     });
 }
+
+/* loading the game  */
 
 if(document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', prepareGame(60));
