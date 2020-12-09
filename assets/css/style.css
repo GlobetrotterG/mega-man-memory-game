@@ -170,7 +170,6 @@ body {
     height: 10rem;
 }
 
-
 @media (max-width: 600px) {
     .memory-game-content {
         grid-template-columns: repeat(2,auto);

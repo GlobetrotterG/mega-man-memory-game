@@ -12,18 +12,11 @@
 </head>
 <body>
 
-    <!----------MUTE, Un-MUTE, and RESTART BUTTON---------->
-      <div class="memory-game-info mx-auto d-block">
-        <button id="muteButton" class="mute-reset">MUTE / UNMUTE</button>
-        <a href="index.html"><button class="mute-reset">RESTART</button></a>
-      </div>
-    <!----------MUTE, Un-MUTE, and RESTART BUTTON END---------->
-
     <!----------Mega Man logo---------->
     <div class="megaman-logo-intro">
       <img src="assets/photos/megamanlogocropped.png" class="mx-auto d-block">
     </div>
-
+     
     <!----------Game text to start, win, game over and timer---------->
     <h1 class="game-instructions text-theme">Match All Cards To Win!</h1>
     <div class="text-theme show">
@@ -39,12 +32,18 @@
       <span class="text-theme-small">Restart Game</span>
     </div>
     <div class="memory-game-content">
+
+    <!----------MUTE, Un-MUTE, and RESTART BUTTON---------->
+    <div class="game-info-container">
+        <button id="muteButton">MUTE / UNMUTE</button>
+        <a href="index.html"><button class="reset">RESTART</button></a>
+    </div>
+
+    <!----------Time remaining and Game flips counter---------->
      <div class="game-info-container">
        <div class="memory-game-info">
         Timer <span id="time-remaining">60</span>
        </div>
-
-    <!----------Game flips counter---------->
       <div class="memory-game-info">
         Number of Flips <span id="flips">0</span>
       </div>
