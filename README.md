@@ -435,6 +435,14 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
       The test has passed and meets user expectations.   
 
 
+## Bugs / Issues
+
+* On the initial creation of this project, I've noticed a lag on the game when using a desktop, but as I progressed with coding this project, the lag was auto corrected. 
+* As I was testing the finalised game on iOS devices, I have noticed a lag with the cards. After how many attempts of restarting it, the issue still persists. When I inspected the project on Google Chrome Developer tools, and used the iPhone options, I didn't see any lags or issues. Due to the time constraint, I will not be able to fully investigate and fully troubleshoot this, but I will definitely need to further troubleshoot this after project submission. 
+* In addition to the issue, I inspected the console log on Google Chrome development tools, it didn't show any Red messages or errors for me to identify any bug issues. 
+
+## Other Tests Carried Out 
+
 * Site was coded using a Dell XPS 13 laptop and also used it to test website responsiveness on laptop.
 * Mobile site version was tested using an iphone 7, iphone 7 Plus, and Samsung Galaxy S10+. 
 * Tablet site version was tested on an ipad Air.
