@@ -43,7 +43,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-gap: 1rem;
-    margin: 4rem;
+    margin: 5rem;
     justify-content: center;
     perspective: 50rem;
 }
@@ -68,7 +68,7 @@ body {
     border-radius: 1.2rem;
     border-width: 0.1rem;
     border-style: solid;
-    transition: transform 500ms ease-in-out;
+    transition: transform 400ms ease-in-out;
 }
 
 /* Card Effects */
@@ -81,7 +81,7 @@ body {
 }
 
 .card.matched .megaman-character {
-    animation: dance 2s linear infinite 600ms;
+    animation: dance 2s linear infinite 400ms;
 }
 
 /* Text overlay before game starts, when you win, or lose */
