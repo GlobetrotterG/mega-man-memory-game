@@ -190,14 +190,14 @@ body {
 @media (min-width: 320px) {
     .memory-game-content {
         grid-template-columns: repeat(3,auto);
-        margin: 2rem;
-        padding-left: 3.5rem;
+        margin: 3vh;
+        padding-left: 5vh.5rem;
     }
 
     .card {
         background-color: #01017c;
-        height: 10rem;
-        width: 8rem;
+        height: 15vh;
+        width: 12vh;
         justify-content: center;
     }
 
