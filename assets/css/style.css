@@ -38,6 +38,7 @@ body {
 }
 
 /* Card grid */
+
 .memory-game-content {
     display: grid;
     grid-template-columns: repeat(4,auto);
@@ -50,8 +51,10 @@ body {
 .card {
     background-color: #01017c;
     height: 16rem;
-    width: 11rem;
+    width: 10rem;
 }
+
+/* End of Card grid */
 
 .front-character-card {
     position: absolute;
@@ -67,7 +70,6 @@ body {
     border-style: solid;
     transition: transform 500ms ease-in-out;
 }
-
 
 /* Card Effects */
 .card.show .rear-side-card {
@@ -139,6 +141,7 @@ body {
     }
 }
 
+
 /* Back and Front of the Card Game */
 .rear-side-card {
     background-color: #edc99f;
@@ -172,16 +175,49 @@ body {
     height: 10rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
     .memory-game-content {
-        grid-template-columns: repeat(2,auto);
+        grid-template-columns: repeat(3,auto);
+        margin: 2rem;
+        padding-left: 3.5rem;
     }
 
     .game-info-container {
+        grid-column: 1 / -1;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
+
+    .card {
+    background-color: #01017c;
+    height: 10rem;
+    width: 8rem;
+    justify-content: center;
+    }
+
+    .text-theme {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 100;
+    font-size: 3rem;
 }
+
+    .text-theme-small {
+    font-size: 1.5rem;
+    text-align: center;
+    animation:blinkingText 1.2s infinite;
+}
+
+}
+
 
 
 
