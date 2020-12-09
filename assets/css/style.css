@@ -101,7 +101,8 @@ body {
 }
 
 .text-theme-small {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    animation: blinkingText 1.5s infinite;
 }
 
 .text-theme.show {
@@ -139,6 +140,17 @@ body {
     75% {
         transform: rotate(30deg);
     }
+}
+
+
+/* Blinking Text to suggest user to start game or restart game when they win or lose  */
+
+@keyframes blinkingText{
+    0%{     color: #fff;    }
+    49%{    color: #fff; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: #fff;    }
 }
 
 
@@ -190,31 +202,31 @@ body {
     }
 
     .card {
-    background-color: #01017c;
-    height: 10rem;
-    width: 8rem;
-    justify-content: center;
+        background-color: #01017c;
+        height: 10rem;
+        width: 8rem;
+        justify-content: center;
     }
 
     .text-theme {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right:0;
-    bottom:0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    z-index: 100;
-    font-size: 3rem;
-}
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom:0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 100;
+        font-size: 3rem;
+    }
 
     .text-theme-small {
-    font-size: 1.5rem;
-    text-align: center;
-    animation:blinkingText 1.2s infinite;
-}
+        font-size: 1.5rem;
+        text-align: center;
+        animation: blinkingText 1.5s infinite;
+    }
 
 }
 
