@@ -15,12 +15,14 @@ I put a lot of inspiration in creating this memory game. Whether you're a fan of
   * [User Goals](#user-goals)
   * [User Stories](#user-stories)
 - [Wireframes](#wireframes)
+  * [Wireframes Update:](#wireframes-update-)
 - [Features](#features)
   * [How To Play The Game](#how-to-play-the-game)
   * [Start Text](#start-text)
   * [Timer](#timer)
   * [Flips](#flips)
-  * [Music On and Off](#music-on-and-off)
+  * [Mute On and Off Button](#mute-on-and-off-button)
+  * [Restart Button](#restart-button)
   * [Win and Game Over Message](#win-and-game-over-message)
 - [The Game Theme](#the-game-theme)
   * [The Game characters](#the-game-characters)
@@ -46,6 +48,9 @@ I put a lot of inspiration in creating this memory game. Whether you're a fan of
 - [Deployment](#deployment)
   * [Cloning Mega Man Memory Game from GitHub](#cloning-mega-man-memory-game-from-github)
 - [Testing](#testing)
+  * [Testing this game based on the User Stories found in the UX section](#testing-this-game-based-on-the-user-stories-found-in-the-ux-section)
+  * [Bugs](#bugs)
+  * [Other Tests Carried Out](#other-tests-carried-out)
 - [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
 - [Credits](#credits)
@@ -57,8 +62,6 @@ I put a lot of inspiration in creating this memory game. Whether you're a fan of
 - [Site Disclaimer](#site-disclaimer)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 
 # UX 
 
@@ -314,7 +317,7 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 
 # Testing 
 
-## I've tested this game based on the User Stories found in the UX section
+## Testing this game based on the User Stories found in the UX section
 
 * User Story 1: As a user, I want to play a game that is fun, colourful, interactive and conceptual. 
 
@@ -434,8 +437,7 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
     * Verdict
       The test has passed and meets user expectations.   
 
-
-## Bugs / Issues
+## Bugs
 
 * On the initial creation of this project, I've noticed a lag on the game when using a desktop, but as I progressed with coding this project, the lag was auto corrected. 
 * As I was testing the finalised game on iOS devices, I have noticed a lag with the cards. After how many attempts of restarting it, the issue still persists. When I inspected the project on Google Chrome Developer tools, and used the iPhone options, I didn't see any lags or issues. Due to the time constraint, I will not be able to fully investigate and fully troubleshoot this, but I will definitely need to further troubleshoot this after project submission. 
@@ -526,4 +528,4 @@ Throughout the behind-the-scenes in creating this project, and having a lot of e
 
 # Site Disclaimer 
 
-* This game site and its contents were created for educational purposes. No Copyright infrigement intended to [Capcom](http://www.capcom-europe.com/).
+* This game site and its contents were created for educational purposes. No Copyright infringement intended to [Capcom](http://www.capcom-europe.com/).
