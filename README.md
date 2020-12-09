@@ -135,10 +135,15 @@ I would like to re-create this game at some point and revert this back to the or
 * The number of flips feature was included in order for the user to assess the number of flips they've made within 60 seconds. 
 * It's a fun feature to add as it challenges the user. 
 
-## Music On and Off
+## Mute On and Off Button
 
 * Is added for the user to control the music of the game and giving them the option to play the game with or without music. 
-* This can be controlled by pressing the icon. 
+* This can be controlled by pressing the button. 
+
+## Restart Button
+
+* I added a Restart button in order for user to restart the game at their own convenience. 
+* This can be controlled by pressing the button. 
 
 ## Win and Game Over Message
 
@@ -276,7 +281,7 @@ Character information [here](https://bit.ly/33RGxJK)
 I went for 2 fonts to compliment the theme of the game using [Google Fonts](https://fonts.google.com/). They are: 
 
 * [Rubik Mono One](https://bit.ly/3lVUL2x) - For the Timer and Flip text.
-* [Press Start 2P](https://bit.ly/3gdH4us) - For the Start Game Text.
+* [Press Start 2P](https://bit.ly/3gdH4us) - For the Start Game, You Win, and Game Over Text.
 
 # Deployment
 
@@ -347,14 +352,19 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 * User Story 3: As a user, I want a game that works on a laptop, desktop, tablet and mobile. 
 
     * Plan
+      My plan is to create a game that can be played on any device. The thought process initially was how this game can be responsive on all devices. 
     
     * Implementation
-
+      Making the game responsive was finalised on the last steps of creating this game. I was thinking whether to use Bootstrap, CSS grids, or Media Query. Due to the time constraint, I didn't want to change any codes the last minute. So had to weigh my options, and went for the Media query option. 
+   
     * Test 
+      I had to experiment with a few styling to get the right level of responsiveness of the game, especially on a mobile device and used Media Query on my CSS. I experimented putting the cards on a row of 2, 3 and 4 to see how it works on a mobile. I also tested the text of the starting and closing of the text to check its responsiveness. I styled my media query appropriately, to include the card and all the text in, and customised them to make it responsive to the mobile version, which meant reducing the font size and the size of the cards. 
 
     * Result 
+      After testing the rows of 2, it felt tedious for the game to played to the mobile, as you have to keep scrolling down to find the match which is frustrating. With the row, I noticed that this didn't work. I tried it on the Chrome Developer, mainly testing it using the iPhoneX option, the left card isn't showing on the screen. I felt that using the row of 3 was a better option. After how many attempts of getting the right style, I was able to make it responsive on the mobile. The only issue I've just noticed now is that when using an iPhone device, some cards were facing front, even when I restarted the game. 
 
     * Verdict
+      For the Samsung device, this game is showing that it's responsive and no issues with the deck of cards turning back. But on the iOS, it seems like there's a bug when the game is played. Due to the lack of time troubleshooting this, I will look into this after project submission. It's partially, achieved the user expectations.
 
 * User Story 4: As a user, I want to play a game tests and challenges my memory skills within a timeframe. 
 
@@ -426,7 +436,7 @@ git clone: https://github.com/GlobetrotterG/mega-man-memory-game.git
 
 
 * Site was coded using a Dell XPS 13 laptop and also used it to test website responsiveness on laptop.
-* Mobile site version was tested using an iphone 7 Plus, Samsung Galaxy S10+, Google Pixel 3a XL phones. 
+* Mobile site version was tested using an iphone 7, iphone 7 Plus, and Samsung Galaxy S10+. 
 * Tablet site version was tested on an ipad Air.
 * To test overall website responsiveness for Laptop, Desktop, Mobile and Tablet, I also used Google Chrome DevTools.
 * HTML code was tested using [W3C Markup Validation Service](https://validator.w3.org/)
@@ -447,7 +457,6 @@ Tools and Libraries
 * Bootstrap
 * GitPod
 * GitHub
-* Font-Awesome
 * bitly
 * W3schools
 * MDN web docs
