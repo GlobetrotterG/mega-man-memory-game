@@ -2,13 +2,15 @@
 
 * {
     box-sizing: border-box;
+    cursor: url(https://cur.cursors-4u.net/games/gam-6/gam505.cur), auto !important;
 }
 
 html {
     min-height: 100vh;
 }
 
-/* Mega Man background image */
+
+/* Background image of the game */
 
 body {
     background-image: url(../photos/megamanwallpaper3.png);
@@ -20,16 +22,7 @@ body {
     -o-background-size: cover;
 }
 
-/* Game instructions text */
-
-.game-instructions {
-    color: #c01818;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: normal;
-    text-align: center;
-    font-size: 2.5rem;
-}
-
+/* Timer, Number of Flips, Mute/Unmute, Restart Buttons */
 .game-info-container {
     grid-column: 1 / -1;
     display: flex;
@@ -37,24 +30,27 @@ body {
 }
 
 .memory-game-info {
-    color: #903030;
-    font-size: 3rem;
-    font-family: arial, sans-serif;
+    background: linear-gradient(to left, #01017c,#c01818);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* Card grid */
 .memory-game-content {
     display: grid;
     grid-template-columns: repeat(4,auto);
     grid-gap: 1rem;
     margin: 4rem;
     justify-content: center;
-    perspective: 40rem;
+    perspective: 50rem;
 }
 
 .card {
     background-color: #01017c;
-    height: 17rem;
-    width: 12rem;
+    height: 16rem;
+    width: 11rem;
 }
 
 .front-character-card {
@@ -72,6 +68,8 @@ body {
     transition: transform 500ms ease-in-out;
 }
 
+
+/* Card Effects */
 .card.show .rear-side-card {
     transform: rotateY(-180deg);
 }
@@ -84,6 +82,7 @@ body {
     animation: dance 2s linear infinite 600ms;
 }
 
+/* Text overlay before game starts, when you win, or lose */
 .text-theme {
     display: none;
     position: fixed;
@@ -126,6 +125,8 @@ body {
     }
 }
 
+/* Characters dance when there's a match */
+
 @keyframes dance {
     0%, 100% {
         transform: rotate(0);
@@ -138,6 +139,7 @@ body {
     }
 }
 
+/* Back and Front of the Card Game */
 .rear-side-card {
     background-color: #edc99f;
     border-color: #909090;
@@ -180,7 +182,8 @@ body {
         align-items: center;
     }
 }
-/* Start http://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/games/gam-6/gam505.cur), auto !important;} /* End http://www.cursors-4u.com */
+
+
 
 
 
