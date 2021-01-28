@@ -516,7 +516,7 @@ I want to extend my biggest gratitude to the following:
 * I also want to thank the Code Institute community via Slack. We have such an amazing group who shares the same passion and interest in what we do! The guys in Slack have been very helpful with any questions I may have, or any students who may have similar questions to me.  
 * I want to thank [Capcom](http://www.capcom-europe.com/) for creating a game that made waves in the games industry. Without their creation of the Mega Man game, I would have not been able to draw inspiration in creating this project! 
 
-Throughout the behind-the-scenes in creating this project, and having a lot of experimenting and checking what works for this project, I want to thank these contents and developers who are masters of their crafts in the world of Software development, as I've drawn inspiration and insights for this project by checking their tutorials, and also researching using w3schools and MDN web docs: 
+Throughout the behind-the-scenes in creating this project, and having a lot of experimenting and checking what works for this project, I want to thank these content creators and developers who are masters of their crafts in the world of Software development, as I've drawn inspiration and insights for this project by checking their tutorials, and also researching using w3schools and MDN web docs: 
 
 * [How To Code A Card Game In Plain JavaScript - Spooky Halloween Edition by PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ)
 * [Memory Card Game - JavaScript Tutorial by freecodecamp.org](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=876s)

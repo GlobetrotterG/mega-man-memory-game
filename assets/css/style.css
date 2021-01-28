@@ -68,7 +68,7 @@ body {
     border-radius: 1.2rem;
     border-width: 0.1rem;
     border-style: solid;
-    transition: transform 600ms ease-in-out;
+    transition: transform 500ms ease-in-out;
 }
 
 /* Card Effects */
@@ -81,7 +81,7 @@ body {
 }
 
 .card.matched .megaman-character {
-    animation: dance 2s linear infinite 600ms;
+    animation: dance 2s linear infinite 500ms;
 }
 
 /* Text overlay before game starts, when you win, or lose */
@@ -94,9 +94,10 @@ body {
     bottom:0;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 100;
     color: #000;
-    font-size: 40rem;
+    font-size: 20rem;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -161,8 +162,8 @@ body {
 }
 
 .rear-side-card:hover .helmet {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .front-side-card {
@@ -173,8 +174,8 @@ body {
 .megaman-character {
     transition: transform 150ms ease-in-out;
     transform: scale(.8);
-    height: 9rem;
-    width: 9rem;
+    height: 10rem;
+    width: 10rem;
 }
 
 .front-side-card:hover .megaman-character {
@@ -183,21 +184,22 @@ body {
 
 .helmet {
     position: absolute;
-    width: 10rem;
-    height: 10rem;
+    width: 9rem;
+    height: 9rem;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 600px) {
+
     .memory-game-content {
+        justify-content: center;
         grid-template-columns: repeat(3,auto);
-        margin: 3vh;
-        padding-left: 5vh.5rem;
+        margin-left: 14rem;
     }
 
     .card {
         background-color: #01017c;
-        height: 15vh;
-        width: 12vh;
+        height: 16rem;
+        width: 10rem;
         justify-content: center;
     }
 
